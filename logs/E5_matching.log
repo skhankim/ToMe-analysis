@@ -1,0 +1,64 @@
+2026-05-25 06:28:10 [INFO] Logging to /workspace/ToMe/logs/E5_matching.log
+2026-05-25 06:28:10 [INFO] device=cuda, ViT-L/16 MAE r=8, prop_attn=False
+2026-05-25 06:28:11 [INFO] 
+--- prune_random ---
+2026-05-25 06:36:33 [INFO]   batch=32 -> 99.8 im/s
+2026-05-25 06:36:58 [INFO]   batch=64 -> 103.4 im/s
+2026-05-25 06:37:47 [INFO]   batch=128 -> 103.6 im/s
+2026-05-25 06:39:29 [INFO]   batch=256 -> 100.8 im/s
+2026-05-25 06:42:53 [INFO]   batch=512 -> 100.2 im/s
+2026-05-25 06:43:05 [INFO]   batch=1024 OOM, stopping search
+2026-05-25 06:43:05 [INFO]   -> best batch=128 @ 103.6 im/s
+2026-05-25 06:43:05 [INFO]   acc=79.510  throughput=103.6 im/s (bs=128)
+2026-05-25 06:43:05 [INFO] 
+--- prune_attn ---
+2026-05-25 06:51:30 [INFO]   batch=32 -> 99.6 im/s
+2026-05-25 06:51:54 [INFO]   batch=64 -> 103.2 im/s
+2026-05-25 06:52:44 [INFO]   batch=128 -> 103.1 im/s
+2026-05-25 06:54:26 [INFO]   batch=256 -> 100.4 im/s
+2026-05-25 06:57:51 [INFO]   batch=512 -> 99.8 im/s
+2026-05-25 06:58:03 [INFO]   batch=1024 OOM, stopping search
+2026-05-25 06:58:03 [INFO]   -> best batch=64 @ 103.2 im/s
+2026-05-25 06:58:03 [INFO]   acc=76.068  throughput=103.2 im/s (bs=64)
+2026-05-25 06:58:03 [INFO] 
+--- kmeans2 ---
+2026-05-25 07:06:36 [INFO]   batch=32 -> 98.0 im/s
+2026-05-25 07:07:01 [INFO]   batch=64 -> 101.4 im/s
+2026-05-25 07:07:52 [INFO]   batch=128 -> 101.3 im/s
+2026-05-25 07:09:36 [INFO]   batch=256 -> 98.7 im/s
+2026-05-25 07:13:05 [INFO]   batch=512 -> 97.8 im/s
+2026-05-25 07:13:07 [INFO]   batch=1024 OOM, stopping search
+2026-05-25 07:13:07 [INFO]   -> best batch=64 @ 101.4 im/s
+2026-05-25 07:13:07 [INFO]   acc=82.312  throughput=101.4 im/s (bs=64)
+2026-05-25 07:13:07 [INFO] 
+--- kmeans5 ---
+2026-05-25 07:21:46 [INFO]   batch=32 -> 97.2 im/s
+2026-05-25 07:22:11 [INFO]   batch=64 -> 100.4 im/s
+2026-05-25 07:23:02 [INFO]   batch=128 -> 100.3 im/s
+2026-05-25 07:24:47 [INFO]   batch=256 -> 97.8 im/s
+2026-05-25 07:28:18 [INFO]   batch=512 -> 96.9 im/s
+2026-05-25 07:28:20 [INFO]   batch=1024 OOM, stopping search
+2026-05-25 07:28:20 [INFO]   -> best batch=64 @ 100.4 im/s
+2026-05-25 07:28:20 [INFO]   acc=82.318  throughput=100.4 im/s (bs=64)
+2026-05-25 07:28:20 [INFO] 
+--- greedy ---
+2026-05-25 07:39:59 [INFO]   batch=32 -> 74.2 im/s
+2026-05-25 07:40:33 [INFO]   batch=64 -> 75.3 im/s
+2026-05-25 07:41:42 [INFO]   batch=128 -> 74.1 im/s
+2026-05-25 07:44:06 [INFO]   batch=256 -> 71.5 im/s
+2026-05-25 07:48:55 [INFO]   batch=512 -> 70.8 im/s
+2026-05-25 07:49:11 [INFO]   batch=1024 OOM, stopping search
+2026-05-25 07:49:11 [INFO]   -> best batch=64 @ 75.3 im/s
+2026-05-25 07:49:11 [INFO]   acc=84.184  throughput=75.3 im/s (bs=64)
+2026-05-25 07:49:11 [INFO] 
+--- bipartite ---
+2026-05-25 07:57:42 [INFO]   batch=32 -> 98.5 im/s
+2026-05-25 07:58:07 [INFO]   batch=64 -> 102.0 im/s
+2026-05-25 07:58:57 [INFO]   batch=128 -> 102.0 im/s
+2026-05-25 08:00:40 [INFO]   batch=256 -> 99.4 im/s
+2026-05-25 08:04:07 [INFO]   batch=512 -> 98.7 im/s
+2026-05-25 08:04:19 [INFO]   batch=1024 OOM, stopping search
+2026-05-25 08:04:19 [INFO]   -> best batch=64 @ 102.0 im/s
+2026-05-25 08:04:19 [INFO]   acc=84.202  throughput=102.0 im/s (bs=64)
+2026-05-25 08:04:19 [INFO] 
+E5 done. Results -> results/E5_matching.json

@@ -1,0 +1,12 @@
+.git
+__pycache__
+.ipynb_checkpoints
+.pytest_cache
+.mypy_cache
+.venv
+data
+results
+logs
+checkpoints
+*.pdf
+.claude

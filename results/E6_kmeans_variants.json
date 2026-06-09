@@ -1,0 +1,18 @@
+[
+  {
+    "algo": "kmeans_random5",
+    "style": "merge",
+    "r": 8,
+    "acc": 2.784,
+    "throughput": 100.64,
+    "throughput_batch": 64
+  },
+  {
+    "algo": "kmeans_kpp_full",
+    "style": "merge",
+    "r": 8,
+    "acc": 83.982,
+    "throughput": 95.04,
+    "throughput_batch": 128
+  }
+]

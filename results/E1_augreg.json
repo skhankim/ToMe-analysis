@@ -1,0 +1,530 @@
+[
+  {
+    "model": "vit_tiny_patch16_224",
+    "input": 224,
+    "r": 0,
+    "acc": 75.484,
+    "throughput": 1639.58,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_tiny_patch16_224",
+    "input": 224,
+    "r": 1,
+    "acc": 75.43,
+    "throughput": 1498.88,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_tiny_patch16_224",
+    "input": 224,
+    "r": 2,
+    "acc": 75.348,
+    "throughput": 1546.56,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_tiny_patch16_224",
+    "input": 224,
+    "r": 3,
+    "acc": 75.292,
+    "throughput": 1596.93,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_tiny_patch16_224",
+    "input": 224,
+    "r": 4,
+    "acc": 75.246,
+    "throughput": 1647.14,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_tiny_patch16_224",
+    "input": 224,
+    "r": 5,
+    "acc": 75.102,
+    "throughput": 1711.6,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_tiny_patch16_224",
+    "input": 224,
+    "r": 6,
+    "acc": 75.06,
+    "throughput": 1771.31,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_tiny_patch16_224",
+    "input": 224,
+    "r": 7,
+    "acc": 74.836,
+    "throughput": 1855.45,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_tiny_patch16_224",
+    "input": 224,
+    "r": 8,
+    "acc": 74.586,
+    "throughput": 1928.8,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_tiny_patch16_224",
+    "input": 224,
+    "r": 9,
+    "acc": 74.376,
+    "throughput": 2023.46,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_tiny_patch16_224",
+    "input": 224,
+    "r": 10,
+    "acc": 74.142,
+    "throughput": 2113.41,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_tiny_patch16_224",
+    "input": 224,
+    "r": 11,
+    "acc": 73.786,
+    "throughput": 2209.02,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_tiny_patch16_224",
+    "input": 224,
+    "r": 12,
+    "acc": 73.438,
+    "throughput": 2313.17,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_tiny_patch16_224",
+    "input": 224,
+    "r": 13,
+    "acc": 72.982,
+    "throughput": 2418.46,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_tiny_patch16_224",
+    "input": 224,
+    "r": 14,
+    "acc": 72.488,
+    "throughput": 2548.97,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_tiny_patch16_224",
+    "input": 224,
+    "r": 15,
+    "acc": 71.566,
+    "throughput": 2679.2,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_tiny_patch16_224",
+    "input": 224,
+    "r": 16,
+    "acc": 70.626,
+    "throughput": 2811.67,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_small_patch16_224",
+    "input": 224,
+    "r": 0,
+    "acc": 81.402,
+    "throughput": 530.91,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_small_patch16_224",
+    "input": 224,
+    "r": 1,
+    "acc": 81.376,
+    "throughput": 524.05,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_small_patch16_224",
+    "input": 224,
+    "r": 2,
+    "acc": 81.23,
+    "throughput": 540.88,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_small_patch16_224",
+    "input": 224,
+    "r": 3,
+    "acc": 81.15,
+    "throughput": 559.27,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_small_patch16_224",
+    "input": 224,
+    "r": 4,
+    "acc": 81.178,
+    "throughput": 577.61,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_small_patch16_224",
+    "input": 224,
+    "r": 5,
+    "acc": 81.014,
+    "throughput": 599.15,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_small_patch16_224",
+    "input": 224,
+    "r": 6,
+    "acc": 80.962,
+    "throughput": 622.33,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_small_patch16_224",
+    "input": 224,
+    "r": 7,
+    "acc": 80.804,
+    "throughput": 649.32,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_small_patch16_224",
+    "input": 224,
+    "r": 8,
+    "acc": 80.652,
+    "throughput": 678.49,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_small_patch16_224",
+    "input": 224,
+    "r": 9,
+    "acc": 80.508,
+    "throughput": 710.67,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_small_patch16_224",
+    "input": 224,
+    "r": 10,
+    "acc": 80.218,
+    "throughput": 743.64,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_small_patch16_224",
+    "input": 224,
+    "r": 11,
+    "acc": 80.054,
+    "throughput": 780.87,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_small_patch16_224",
+    "input": 224,
+    "r": 12,
+    "acc": 79.604,
+    "throughput": 822.66,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_small_patch16_224",
+    "input": 224,
+    "r": 13,
+    "acc": 79.342,
+    "throughput": 864.32,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_small_patch16_224",
+    "input": 224,
+    "r": 14,
+    "acc": 78.752,
+    "throughput": 917.27,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_small_patch16_224",
+    "input": 224,
+    "r": 15,
+    "acc": 78.036,
+    "throughput": 971.35,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_small_patch16_224",
+    "input": 224,
+    "r": 16,
+    "acc": 76.956,
+    "throughput": 1032.88,
+    "throughput_batch": 128
+  },
+  {
+    "model": "vit_base_patch16_224",
+    "input": 224,
+    "r": 0,
+    "acc": 84.47,
+    "throughput": 163.07,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_base_patch16_224",
+    "input": 224,
+    "r": 1,
+    "acc": 84.428,
+    "throughput": 161.54,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_base_patch16_224",
+    "input": 224,
+    "r": 2,
+    "acc": 84.354,
+    "throughput": 165.04,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_base_patch16_224",
+    "input": 224,
+    "r": 3,
+    "acc": 84.346,
+    "throughput": 171.03,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_base_patch16_224",
+    "input": 224,
+    "r": 4,
+    "acc": 84.202,
+    "throughput": 177.82,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_base_patch16_224",
+    "input": 224,
+    "r": 5,
+    "acc": 84.214,
+    "throughput": 184.27,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_base_patch16_224",
+    "input": 224,
+    "r": 6,
+    "acc": 84.076,
+    "throughput": 190.52,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_base_patch16_224",
+    "input": 224,
+    "r": 7,
+    "acc": 83.956,
+    "throughput": 199.98,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_base_patch16_224",
+    "input": 224,
+    "r": 8,
+    "acc": 83.786,
+    "throughput": 208.58,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_base_patch16_224",
+    "input": 224,
+    "r": 9,
+    "acc": 83.692,
+    "throughput": 216.23,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_base_patch16_224",
+    "input": 224,
+    "r": 10,
+    "acc": 83.548,
+    "throughput": 226.66,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_base_patch16_224",
+    "input": 224,
+    "r": 11,
+    "acc": 83.202,
+    "throughput": 235.75,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_base_patch16_224",
+    "input": 224,
+    "r": 12,
+    "acc": 82.956,
+    "throughput": 246.81,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_base_patch16_224",
+    "input": 224,
+    "r": 13,
+    "acc": 82.542,
+    "throughput": 260.73,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_base_patch16_224",
+    "input": 224,
+    "r": 14,
+    "acc": 82.018,
+    "throughput": 274.41,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_base_patch16_224",
+    "input": 224,
+    "r": 15,
+    "acc": 81.34,
+    "throughput": 290.86,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_base_patch16_224",
+    "input": 224,
+    "r": 16,
+    "acc": 80.348,
+    "throughput": 308.17,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_large_patch16_224",
+    "input": 224,
+    "r": 0,
+    "acc": 85.888,
+    "throughput": 51.8,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_large_patch16_224",
+    "input": 224,
+    "r": 1,
+    "acc": 85.736,
+    "throughput": 54.16,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_large_patch16_224",
+    "input": 224,
+    "r": 2,
+    "acc": 85.678,
+    "throughput": 57.52,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_large_patch16_224",
+    "input": 224,
+    "r": 3,
+    "acc": 85.57,
+    "throughput": 61.45,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_large_patch16_224",
+    "input": 224,
+    "r": 4,
+    "acc": 85.346,
+    "throughput": 65.96,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_large_patch16_224",
+    "input": 224,
+    "r": 5,
+    "acc": 85.086,
+    "throughput": 71.83,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_large_patch16_224",
+    "input": 224,
+    "r": 6,
+    "acc": 84.736,
+    "throughput": 78.65,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_large_patch16_224",
+    "input": 224,
+    "r": 7,
+    "acc": 84.12,
+    "throughput": 87.26,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_large_patch16_224",
+    "input": 224,
+    "r": 8,
+    "acc": 83.286,
+    "throughput": 97.53,
+    "throughput_batch": 64
+  },
+  {
+    "model": "vit_large_patch16_384",
+    "input": 384,
+    "r": 0,
+    "acc": 87.084,
+    "throughput": 15.69,
+    "throughput_batch": 32
+  },
+  {
+    "model": "vit_large_patch16_384",
+    "input": 384,
+    "r": 5,
+    "acc": 87.042,
+    "throughput": 17.08,
+    "throughput_batch": 32
+  },
+  {
+    "model": "vit_large_patch16_384",
+    "input": 384,
+    "r": 10,
+    "acc": 87.012,
+    "throughput": 19.53,
+    "throughput_batch": 32
+  },
+  {
+    "model": "vit_large_patch16_384",
+    "input": 384,
+    "r": 15,
+    "acc": 86.954,
+    "throughput": 22.59,
+    "throughput_batch": 32
+  },
+  {
+    "model": "vit_large_patch16_384",
+    "input": 384,
+    "r": 20,
+    "acc": 86.678,
+    "throughput": 26.6,
+    "throughput_batch": 32
+  },
+  {
+    "model": "vit_large_patch16_384",
+    "input": 384,
+    "r": 23,
+    "acc": 86.248,
+    "throughput": 29.66,
+    "throughput_batch": 32
+  }
+]

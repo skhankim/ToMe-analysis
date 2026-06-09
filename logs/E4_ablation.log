@@ -1,0 +1,249 @@
+2026-05-25 04:35:48 [INFO] Logging to /workspace/ToMe/logs/E4_ablation.log
+2026-05-25 04:35:48 [INFO] device=cuda, base: ViT-L/16, r=8, 50K val
+2026-05-25 04:35:48 [INFO] 
+--- Table 1a | x_pre (mae) ---
+2026-05-25 04:35:48 [INFO]   cfg={'feature': 'x_pre', 'distance': 'cosine', 'head_agg': 'mean', 'combine': 'wavg', 'partition': 'alternating', 'prop_attn': False}
+2026-05-25 04:45:03 [INFO]   batch=32 -> 91.4 im/s
+2026-05-25 04:45:30 [INFO]   batch=64 -> 94.6 im/s
+2026-05-25 04:46:24 [INFO]   batch=128 -> 94.7 im/s
+2026-05-25 04:48:15 [INFO]   batch=256 -> 92.4 im/s
+2026-05-25 04:48:15 [INFO]   batch=512 OOM, stopping search
+2026-05-25 04:48:15 [INFO]   -> best batch=128 @ 94.7 im/s
+2026-05-25 04:48:15 [INFO]   acc=83.418  throughput=94.7 im/s (bs=128)
+2026-05-25 04:48:15 [INFO] 
+--- Table 1a | x (mae) ---
+2026-05-25 04:48:15 [INFO]   cfg={'feature': 'x', 'distance': 'cosine', 'head_agg': 'mean', 'combine': 'wavg', 'partition': 'alternating', 'prop_attn': False}
+2026-05-25 04:57:24 [INFO]   batch=32 -> 91.2 im/s
+2026-05-25 04:57:51 [INFO]   batch=64 -> 94.7 im/s
+2026-05-25 04:58:45 [INFO]   batch=128 -> 94.6 im/s
+2026-05-25 05:00:37 [INFO]   batch=256 -> 92.3 im/s
+2026-05-25 05:00:37 [INFO]   batch=512 OOM, stopping search
+2026-05-25 05:00:37 [INFO]   -> best batch=64 @ 94.7 im/s
+2026-05-25 05:00:37 [INFO]   acc=83.534  throughput=94.7 im/s (bs=64)
+2026-05-25 05:00:37 [INFO] 
+--- Table 1a | k (mae) ---
+2026-05-25 05:00:37 [INFO]   cfg={'feature': 'k', 'distance': 'cosine', 'head_agg': 'mean', 'combine': 'wavg', 'partition': 'alternating', 'prop_attn': False}
+2026-05-25 05:09:39 [INFO]   batch=32 -> 92.5 im/s
+2026-05-25 05:10:05 [INFO]   batch=64 -> 96.0 im/s
+2026-05-25 05:10:59 [INFO]   batch=128 -> 96.0 im/s
+2026-05-25 05:12:48 [INFO]   batch=256 -> 93.7 im/s
+2026-05-25 05:12:49 [INFO]   batch=512 OOM, stopping search
+2026-05-25 05:12:49 [INFO]   -> best batch=128 @ 96.0 im/s
+2026-05-25 05:12:49 [INFO]   acc=84.318  throughput=96.0 im/s (bs=128)
+2026-05-25 05:12:49 [INFO] 
+--- Table 1a | q (mae) ---
+2026-05-25 05:12:49 [INFO]   cfg={'feature': 'q', 'distance': 'cosine', 'head_agg': 'mean', 'combine': 'wavg', 'partition': 'alternating', 'prop_attn': False}
+2026-05-25 05:21:51 [INFO]   batch=32 -> 92.7 im/s
+2026-05-25 05:22:17 [INFO]   batch=64 -> 96.3 im/s
+2026-05-25 05:23:11 [INFO]   batch=128 -> 96.1 im/s
+2026-05-25 05:25:00 [INFO]   batch=256 -> 93.7 im/s
+2026-05-25 05:25:01 [INFO]   batch=512 OOM, stopping search
+2026-05-25 05:25:01 [INFO]   -> best batch=64 @ 96.3 im/s
+2026-05-25 05:25:01 [INFO]   acc=83.992  throughput=96.3 im/s (bs=64)
+2026-05-25 05:25:01 [INFO] 
+--- Table 1a | v (mae) ---
+2026-05-25 05:25:01 [INFO]   cfg={'feature': 'v', 'distance': 'cosine', 'head_agg': 'mean', 'combine': 'wavg', 'partition': 'alternating', 'prop_attn': False}
+2026-05-25 05:34:04 [INFO]   batch=32 -> 92.2 im/s
+2026-05-25 05:34:31 [INFO]   batch=64 -> 95.4 im/s
+2026-05-25 05:35:24 [INFO]   batch=128 -> 95.9 im/s
+2026-05-25 05:37:14 [INFO]   batch=256 -> 93.4 im/s
+2026-05-25 05:37:14 [INFO]   batch=512 OOM, stopping search
+2026-05-25 05:37:14 [INFO]   -> best batch=128 @ 95.9 im/s
+2026-05-25 05:37:14 [INFO]   acc=83.754  throughput=95.9 im/s (bs=128)
+2026-05-25 05:37:14 [INFO] 
+--- Table 1b | euclidean (mae) ---
+2026-05-25 05:37:14 [INFO]   cfg={'feature': 'k', 'distance': 'euclidean', 'head_agg': 'mean', 'combine': 'wavg', 'partition': 'alternating', 'prop_attn': False}
+2026-05-25 05:46:19 [INFO]   batch=32 -> 92.1 im/s
+2026-05-25 05:46:45 [INFO]   batch=64 -> 95.3 im/s
+2026-05-25 05:47:39 [INFO]   batch=128 -> 95.6 im/s
+2026-05-25 05:49:29 [INFO]   batch=256 -> 93.2 im/s
+2026-05-25 05:49:29 [INFO]   batch=512 OOM, stopping search
+2026-05-25 05:49:29 [INFO]   -> best batch=128 @ 95.6 im/s
+2026-05-25 05:49:29 [INFO]   acc=84.192  throughput=95.6 im/s (bs=128)
+2026-05-25 05:49:30 [INFO] 
+--- Table 1b | cosine (mae) ---
+2026-05-25 05:49:30 [INFO]   cfg={'feature': 'k', 'distance': 'cosine', 'head_agg': 'mean', 'combine': 'wavg', 'partition': 'alternating', 'prop_attn': False}
+2026-05-25 05:58:34 [INFO]   batch=32 -> 91.9 im/s
+2026-05-25 05:59:01 [INFO]   batch=64 -> 95.6 im/s
+2026-05-25 05:59:54 [INFO]   batch=128 -> 95.7 im/s
+2026-05-25 06:01:44 [INFO]   batch=256 -> 93.6 im/s
+2026-05-25 06:01:44 [INFO]   batch=512 OOM, stopping search
+2026-05-25 06:01:44 [INFO]   -> best batch=128 @ 95.7 im/s
+2026-05-25 06:01:44 [INFO]   acc=84.318  throughput=95.7 im/s (bs=128)
+2026-05-25 06:01:45 [INFO] 
+--- Table 1b | dot (mae) ---
+2026-05-25 06:01:45 [INFO]   cfg={'feature': 'k', 'distance': 'dot', 'head_agg': 'mean', 'combine': 'wavg', 'partition': 'alternating', 'prop_attn': False}
+2026-05-25 06:10:46 [INFO]   batch=32 -> 92.8 im/s
+2026-05-25 06:11:13 [INFO]   batch=64 -> 96.4 im/s
+2026-05-25 06:12:06 [INFO]   batch=128 -> 96.1 im/s
+2026-05-25 06:13:55 [INFO]   batch=256 -> 93.7 im/s
+2026-05-25 06:13:56 [INFO]   batch=512 OOM, stopping search
+2026-05-25 06:13:56 [INFO]   -> best batch=64 @ 96.4 im/s
+2026-05-25 06:13:56 [INFO]   acc=82.760  throughput=96.4 im/s (bs=64)
+2026-05-25 06:13:56 [INFO] 
+--- Table 1b | softmax (mae) ---
+2026-05-25 06:13:56 [INFO]   cfg={'feature': 'k', 'distance': 'softmax', 'head_agg': 'mean', 'combine': 'wavg', 'partition': 'alternating', 'prop_attn': False}
+2026-05-25 06:22:56 [INFO]   batch=32 -> 92.6 im/s
+2026-05-25 06:23:23 [INFO]   batch=64 -> 96.3 im/s
+2026-05-25 06:24:16 [INFO]   batch=128 -> 96.1 im/s
+2026-05-25 06:26:05 [INFO]   batch=256 -> 93.7 im/s
+2026-05-25 06:26:06 [INFO]   batch=512 OOM, stopping search
+2026-05-25 06:26:06 [INFO]   -> best batch=64 @ 96.3 im/s
+2026-05-25 06:26:06 [INFO]   acc=81.068  throughput=96.3 im/s (bs=64)
+2026-05-25 06:26:06 [INFO] 
+--- Table 1c | concat (mae) ---
+2026-05-25 06:26:06 [INFO]   cfg={'feature': 'k', 'distance': 'cosine', 'head_agg': 'concat', 'combine': 'wavg', 'partition': 'alternating', 'prop_attn': False}
+2026-05-25 06:35:17 [INFO]   batch=32 -> 91.3 im/s
+2026-05-25 06:35:44 [INFO]   batch=64 -> 94.5 im/s
+2026-05-25 06:36:38 [INFO]   batch=128 -> 94.7 im/s
+2026-05-25 06:38:29 [INFO]   batch=256 -> 92.2 im/s
+2026-05-25 06:38:29 [INFO]   batch=512 OOM, stopping search
+2026-05-25 06:38:29 [INFO]   -> best batch=128 @ 94.7 im/s
+2026-05-25 06:38:29 [INFO]   acc=84.264  throughput=94.7 im/s (bs=128)
+2026-05-25 06:38:30 [INFO] 
+--- Table 1c | mean (mae) ---
+2026-05-25 06:38:30 [INFO]   cfg={'feature': 'k', 'distance': 'cosine', 'head_agg': 'mean', 'combine': 'wavg', 'partition': 'alternating', 'prop_attn': False}
+2026-05-25 06:47:31 [INFO]   batch=32 -> 92.2 im/s
+2026-05-25 06:47:58 [INFO]   batch=64 -> 95.7 im/s
+2026-05-25 06:48:51 [INFO]   batch=128 -> 95.9 im/s
+2026-05-25 06:50:41 [INFO]   batch=256 -> 93.4 im/s
+2026-05-25 06:50:42 [INFO]   batch=512 OOM, stopping search
+2026-05-25 06:50:42 [INFO]   -> best batch=128 @ 95.9 im/s
+2026-05-25 06:50:42 [INFO]   acc=84.314  throughput=95.9 im/s (bs=128)
+2026-05-25 06:50:42 [INFO] 
+--- Table 1d | keep_one (mae) ---
+2026-05-25 06:50:42 [INFO]   cfg={'feature': 'k', 'distance': 'cosine', 'head_agg': 'mean', 'combine': 'keep_one', 'partition': 'alternating', 'prop_attn': False}
+2026-05-25 06:59:42 [INFO]   batch=32 -> 93.1 im/s
+2026-05-25 07:00:08 [INFO]   batch=64 -> 96.7 im/s
+2026-05-25 07:01:02 [INFO]   batch=128 -> 96.3 im/s
+2026-05-25 07:02:51 [INFO]   batch=256 -> 94.1 im/s
+2026-05-25 07:02:51 [INFO]   batch=512 OOM, stopping search
+2026-05-25 07:02:51 [INFO]   -> best batch=64 @ 96.7 im/s
+2026-05-25 07:02:51 [INFO]   acc=80.190  throughput=96.7 im/s (bs=64)
+2026-05-25 07:02:51 [INFO] 
+--- Table 1d | max (mae) ---
+2026-05-25 07:02:51 [INFO]   cfg={'feature': 'k', 'distance': 'cosine', 'head_agg': 'mean', 'combine': 'max', 'partition': 'alternating', 'prop_attn': False}
+2026-05-25 07:11:53 [INFO]   batch=32 -> 92.4 im/s
+2026-05-25 07:12:20 [INFO]   batch=64 -> 96.0 im/s
+2026-05-25 07:13:13 [INFO]   batch=128 -> 96.1 im/s
+2026-05-25 07:15:03 [INFO]   batch=256 -> 93.5 im/s
+2026-05-25 07:15:03 [INFO]   batch=512 OOM, stopping search
+2026-05-25 07:15:03 [INFO]   -> best batch=128 @ 96.1 im/s
+2026-05-25 07:15:03 [INFO]   acc=83.642  throughput=96.1 im/s (bs=128)
+2026-05-25 07:15:04 [INFO] 
+--- Table 1d | avg (mae) ---
+2026-05-25 07:15:04 [INFO]   cfg={'feature': 'k', 'distance': 'cosine', 'head_agg': 'mean', 'combine': 'avg', 'partition': 'alternating', 'prop_attn': False}
+2026-05-25 07:24:08 [INFO]   batch=32 -> 92.4 im/s
+2026-05-25 07:24:35 [INFO]   batch=64 -> 96.1 im/s
+2026-05-25 07:25:28 [INFO]   batch=128 -> 95.6 im/s
+2026-05-25 07:27:19 [INFO]   batch=256 -> 93.1 im/s
+2026-05-25 07:27:19 [INFO]   batch=512 OOM, stopping search
+2026-05-25 07:27:19 [INFO]   -> best batch=64 @ 96.1 im/s
+2026-05-25 07:27:19 [INFO]   acc=83.588  throughput=96.1 im/s (bs=64)
+2026-05-25 07:27:19 [INFO] 
+--- Table 1d | wavg (mae) ---
+2026-05-25 07:27:19 [INFO]   cfg={'feature': 'k', 'distance': 'cosine', 'head_agg': 'mean', 'combine': 'wavg', 'partition': 'alternating', 'prop_attn': False}
+2026-05-25 07:36:23 [INFO]   batch=32 -> 92.1 im/s
+2026-05-25 07:36:50 [INFO]   batch=64 -> 95.5 im/s
+2026-05-25 07:37:44 [INFO]   batch=128 -> 95.4 im/s
+2026-05-25 07:39:34 [INFO]   batch=256 -> 93.1 im/s
+2026-05-25 07:39:34 [INFO]   batch=512 OOM, stopping search
+2026-05-25 07:39:34 [INFO]   -> best batch=64 @ 95.5 im/s
+2026-05-25 07:39:34 [INFO]   acc=84.322  throughput=95.5 im/s (bs=64)
+2026-05-25 07:39:35 [INFO] 
+--- Table 1e | sequential (mae) ---
+2026-05-25 07:39:35 [INFO]   cfg={'feature': 'k', 'distance': 'cosine', 'head_agg': 'mean', 'combine': 'wavg', 'partition': 'sequential', 'prop_attn': False}
+2026-05-25 07:48:41 [INFO]   batch=32 -> 91.4 im/s
+2026-05-25 07:49:08 [INFO]   batch=64 -> 95.4 im/s
+2026-05-25 07:50:01 [INFO]   batch=128 -> 95.7 im/s
+2026-05-25 07:51:51 [INFO]   batch=256 -> 93.7 im/s
+2026-05-25 07:51:51 [INFO]   batch=512 OOM, stopping search
+2026-05-25 07:51:51 [INFO]   -> best batch=128 @ 95.7 im/s
+2026-05-25 07:51:51 [INFO]   acc=80.922  throughput=95.7 im/s (bs=128)
+2026-05-25 07:51:51 [INFO] 
+--- Table 1e | alternating (mae) ---
+2026-05-25 07:51:51 [INFO]   cfg={'feature': 'k', 'distance': 'cosine', 'head_agg': 'mean', 'combine': 'wavg', 'partition': 'alternating', 'prop_attn': False}
+2026-05-25 08:00:54 [INFO]   batch=32 -> 92.3 im/s
+2026-05-25 08:01:20 [INFO]   batch=64 -> 95.8 im/s
+2026-05-25 08:02:14 [INFO]   batch=128 -> 95.8 im/s
+2026-05-25 08:04:03 [INFO]   batch=256 -> 94.0 im/s
+2026-05-25 08:04:03 [INFO]   batch=512 OOM, stopping search
+2026-05-25 08:04:03 [INFO]   -> best batch=128 @ 95.8 im/s
+2026-05-25 08:04:03 [INFO]   acc=84.316  throughput=95.8 im/s (bs=128)
+2026-05-25 08:04:03 [INFO] 
+--- Table 1e | random (mae) ---
+2026-05-25 08:04:03 [INFO]   cfg={'feature': 'k', 'distance': 'cosine', 'head_agg': 'mean', 'combine': 'wavg', 'partition': 'random', 'prop_attn': False}
+2026-05-25 08:13:02 [INFO]   batch=32 -> 93.5 im/s
+2026-05-25 08:13:29 [INFO]   batch=64 -> 96.8 im/s
+2026-05-25 08:14:22 [INFO]   batch=128 -> 96.9 im/s
+2026-05-25 08:16:10 [INFO]   batch=256 -> 94.4 im/s
+2026-05-25 08:16:11 [INFO]   batch=512 OOM, stopping search
+2026-05-25 08:16:11 [INFO]   -> best batch=128 @ 96.9 im/s
+2026-05-25 08:16:11 [INFO]   acc=83.768  throughput=96.9 im/s (bs=128)
+2026-05-25 08:16:11 [INFO] 
+--- Table 1f | mae_no_prop (mae) ---
+2026-05-25 08:16:11 [INFO]   cfg={'feature': 'k', 'distance': 'cosine', 'head_agg': 'mean', 'combine': 'wavg', 'partition': 'alternating', 'prop_attn': False}
+2026-05-25 08:25:09 [INFO]   batch=32 -> 92.7 im/s
+2026-05-25 08:25:35 [INFO]   batch=64 -> 96.4 im/s
+2026-05-25 08:26:29 [INFO]   batch=128 -> 96.5 im/s
+2026-05-25 08:28:17 [INFO]   batch=256 -> 94.4 im/s
+2026-05-25 08:28:18 [INFO]   batch=512 OOM, stopping search
+2026-05-25 08:28:18 [INFO]   -> best batch=128 @ 96.5 im/s
+2026-05-25 08:28:18 [INFO]   acc=84.322  throughput=96.5 im/s (bs=128)
+2026-05-25 08:28:18 [INFO] 
+--- Table 1f | mae_prop (mae) ---
+2026-05-25 08:28:18 [INFO]   cfg={'feature': 'k', 'distance': 'cosine', 'head_agg': 'mean', 'combine': 'wavg', 'partition': 'alternating', 'prop_attn': True}
+2026-05-25 08:37:21 [INFO]   batch=32 -> 92.3 im/s
+2026-05-25 08:37:48 [INFO]   batch=64 -> 95.7 im/s
+2026-05-25 08:38:41 [INFO]   batch=128 -> 95.8 im/s
+2026-05-25 08:40:31 [INFO]   batch=256 -> 93.4 im/s
+2026-05-25 08:40:31 [INFO]   batch=512 OOM, stopping search
+2026-05-25 08:40:31 [INFO]   -> best batch=128 @ 95.8 im/s
+2026-05-25 08:40:31 [INFO]   acc=83.828  throughput=95.8 im/s (bs=128)
+2026-05-25 08:40:31 [INFO] 
+--- Table 1f | augreg_no_prop (augreg) ---
+2026-05-25 08:40:31 [INFO]   cfg={'feature': 'k', 'distance': 'cosine', 'head_agg': 'mean', 'combine': 'wavg', 'partition': 'alternating', 'prop_attn': False}
+2026-05-25 08:49:32 [INFO]   batch=32 -> 93.5 im/s
+2026-05-25 08:49:58 [INFO]   batch=64 -> 96.8 im/s
+2026-05-25 08:50:51 [INFO]   batch=128 -> 96.9 im/s
+2026-05-25 08:52:40 [INFO]   batch=256 -> 94.3 im/s
+2026-05-25 08:52:40 [INFO]   batch=512 OOM, stopping search
+2026-05-25 08:52:40 [INFO]   -> best batch=128 @ 96.9 im/s
+2026-05-25 08:52:40 [INFO]   acc=80.112  throughput=96.9 im/s (bs=128)
+2026-05-25 08:52:40 [INFO] 
+--- Table 1f | augreg_prop (augreg) ---
+2026-05-25 08:52:40 [INFO]   cfg={'feature': 'k', 'distance': 'cosine', 'head_agg': 'mean', 'combine': 'wavg', 'partition': 'alternating', 'prop_attn': True}
+2026-05-25 09:01:43 [INFO]   batch=32 -> 92.3 im/s
+2026-05-25 09:02:10 [INFO]   batch=64 -> 95.8 im/s
+2026-05-25 09:03:03 [INFO]   batch=128 -> 95.9 im/s
+2026-05-25 09:04:53 [INFO]   batch=256 -> 93.4 im/s
+2026-05-25 09:04:53 [INFO]   batch=512 OOM, stopping search
+2026-05-25 09:04:53 [INFO]   -> best batch=128 @ 95.9 im/s
+2026-05-25 09:04:53 [INFO]   acc=81.400  throughput=95.9 im/s (bs=128)
+2026-05-25 09:04:53 [INFO] 
+E4 done. 22 configs. Results -> results/E4_ablation.json
+2026-05-25 10:27:38 [INFO] Logging to /workspace/ToMe/logs/E4_ablation.log
+2026-05-25 10:27:38 [INFO] device=cuda, base: ViT-L/16, r=8, 50K val, only_augreg=True, out=E4_ablation_augreg.json
+2026-05-25 10:27:38 [INFO] 
+--- Table 1f | augreg_no_prop (augreg) ---
+2026-05-25 10:27:45 [INFO]   augreg loader: mean=(0.5, 0.5, 0.5) std=(0.5, 0.5, 0.5) crop_pct=0.9
+2026-05-25 10:27:45 [INFO]   cfg={'feature': 'k', 'distance': 'cosine', 'head_agg': 'mean', 'combine': 'wavg', 'partition': 'alternating', 'prop_attn': False}
+2026-05-25 10:36:35 [INFO]   batch=32 -> 93.8 im/s
+2026-05-25 10:37:02 [INFO]   batch=64 -> 97.4 im/s
+2026-05-25 10:37:54 [INFO]   batch=128 -> 97.2 im/s
+2026-05-25 10:39:42 [INFO]   batch=256 -> 94.9 im/s
+2026-05-25 10:39:43 [INFO]   batch=512 OOM, stopping search
+2026-05-25 10:39:43 [INFO]   -> best batch=64 @ 97.4 im/s
+2026-05-25 10:39:43 [INFO]   acc=82.062  throughput=97.4 im/s (bs=64)
+2026-05-25 10:39:43 [INFO] 
+--- Table 1f | augreg_prop (augreg) ---
+2026-05-25 10:39:43 [INFO]   cfg={'feature': 'k', 'distance': 'cosine', 'head_agg': 'mean', 'combine': 'wavg', 'partition': 'alternating', 'prop_attn': True}
+2026-05-25 10:48:43 [INFO]   batch=32 -> 92.9 im/s
+2026-05-25 10:49:09 [INFO]   batch=64 -> 96.8 im/s
+2026-05-25 10:50:02 [INFO]   batch=128 -> 96.5 im/s
+2026-05-25 10:51:51 [INFO]   batch=256 -> 94.0 im/s
+2026-05-25 10:51:52 [INFO]   batch=512 OOM, stopping search
+2026-05-25 10:51:52 [INFO]   -> best batch=64 @ 96.8 im/s
+2026-05-25 10:51:52 [INFO]   acc=83.324  throughput=96.8 im/s (bs=64)
+2026-05-25 10:51:52 [INFO] 
+E4 done. 2 configs. Results -> results/E4_ablation_augreg.json

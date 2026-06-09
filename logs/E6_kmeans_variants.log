@@ -1,0 +1,24 @@
+2026-06-03 04:20:22 [INFO] Logging to /workspace/ToMe/logs/E6_kmeans_variants.log
+2026-06-03 04:20:22 [INFO] device=cuda, ViT-L/16 MAE r=8, prop_attn=False, variants=['kmeans_random5', 'kmeans_kpp_full']
+2026-06-03 04:20:22 [INFO] 
+--- kmeans_random5 ---
+2026-06-03 04:29:07 [INFO]   batch=32 -> 97.0 im/s
+2026-06-03 04:29:33 [INFO]   batch=64 -> 100.6 im/s
+2026-06-03 04:30:24 [INFO]   batch=128 -> 99.9 im/s
+2026-06-03 04:32:09 [INFO]   batch=256 -> 97.0 im/s
+2026-06-03 04:35:45 [INFO]   batch=512 -> 95.2 im/s
+2026-06-03 04:35:47 [INFO]   batch=1024 OOM, stopping search
+2026-06-03 04:35:47 [INFO]   -> best batch=64 @ 100.6 im/s
+2026-06-03 04:35:47 [INFO]   acc=2.784  throughput=100.6 im/s (bs=64)
+2026-06-03 04:35:47 [INFO] 
+--- kmeans_kpp_full ---
+2026-06-03 04:45:00 [INFO]   batch=32 -> 91.1 im/s
+2026-06-03 04:45:27 [INFO]   batch=64 -> 94.1 im/s
+2026-06-03 04:46:21 [INFO]   batch=128 -> 95.0 im/s
+2026-06-03 04:48:11 [INFO]   batch=256 -> 93.1 im/s
+2026-06-03 04:51:53 [INFO]   batch=512 -> 92.5 im/s
+2026-06-03 04:51:54 [INFO]   batch=1024 OOM, stopping search
+2026-06-03 04:51:54 [INFO]   -> best batch=128 @ 95.0 im/s
+2026-06-03 04:51:54 [INFO]   acc=83.982  throughput=95.0 im/s (bs=128)
+2026-06-03 04:51:55 [INFO] 
+E6 done. 2 variants. Results -> results/E6_kmeans_variants.json

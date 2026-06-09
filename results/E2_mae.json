@@ -1,0 +1,274 @@
+[
+  {
+    "model": "mae_vit_base",
+    "input": 224,
+    "r": 0,
+    "acc": 83.722,
+    "throughput": 170.97,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_base",
+    "input": 224,
+    "r": 1,
+    "acc": 83.646,
+    "throughput": 171.87,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_base",
+    "input": 224,
+    "r": 2,
+    "acc": 83.596,
+    "throughput": 176.68,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_base",
+    "input": 224,
+    "r": 3,
+    "acc": 83.534,
+    "throughput": 181.9,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_base",
+    "input": 224,
+    "r": 4,
+    "acc": 83.52,
+    "throughput": 189.27,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_base",
+    "input": 224,
+    "r": 5,
+    "acc": 83.36,
+    "throughput": 196.05,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_base",
+    "input": 224,
+    "r": 6,
+    "acc": 83.236,
+    "throughput": 203.35,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_base",
+    "input": 224,
+    "r": 7,
+    "acc": 83.024,
+    "throughput": 212.41,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_base",
+    "input": 224,
+    "r": 8,
+    "acc": 82.824,
+    "throughput": 222.55,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_base",
+    "input": 224,
+    "r": 9,
+    "acc": 82.784,
+    "throughput": 230.75,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_base",
+    "input": 224,
+    "r": 10,
+    "acc": 82.56,
+    "throughput": 241.6,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_base",
+    "input": 224,
+    "r": 11,
+    "acc": 82.33,
+    "throughput": 252.15,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_base",
+    "input": 224,
+    "r": 12,
+    "acc": 81.822,
+    "throughput": 264.06,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_base",
+    "input": 224,
+    "r": 13,
+    "acc": 81.474,
+    "throughput": 278.47,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_base",
+    "input": 224,
+    "r": 14,
+    "acc": 80.742,
+    "throughput": 293.46,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_base",
+    "input": 224,
+    "r": 15,
+    "acc": 79.964,
+    "throughput": 310.5,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_base",
+    "input": 224,
+    "r": 16,
+    "acc": 78.88,
+    "throughput": 328.12,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_large",
+    "input": 224,
+    "r": 0,
+    "acc": 85.954,
+    "throughput": 54.6,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_large",
+    "input": 224,
+    "r": 1,
+    "acc": 85.93,
+    "throughput": 57.24,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_large",
+    "input": 224,
+    "r": 2,
+    "acc": 85.774,
+    "throughput": 61.01,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_large",
+    "input": 224,
+    "r": 3,
+    "acc": 85.768,
+    "throughput": 65.01,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_large",
+    "input": 224,
+    "r": 4,
+    "acc": 85.632,
+    "throughput": 69.78,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_large",
+    "input": 224,
+    "r": 5,
+    "acc": 85.462,
+    "throughput": 75.94,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_large",
+    "input": 224,
+    "r": 6,
+    "acc": 85.116,
+    "throughput": 83.39,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_large",
+    "input": 224,
+    "r": 7,
+    "acc": 84.78,
+    "throughput": 92.75,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_large",
+    "input": 224,
+    "r": 8,
+    "acc": 84.202,
+    "throughput": 103.52,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_huge",
+    "input": 224,
+    "r": 0,
+    "acc": 86.9,
+    "throughput": 19.75,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_huge",
+    "input": 224,
+    "r": 1,
+    "acc": 86.884,
+    "throughput": 21.18,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_huge",
+    "input": 224,
+    "r": 2,
+    "acc": 86.824,
+    "throughput": 22.74,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_huge",
+    "input": 224,
+    "r": 3,
+    "acc": 86.78,
+    "throughput": 24.53,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_huge",
+    "input": 224,
+    "r": 4,
+    "acc": 86.616,
+    "throughput": 26.41,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_huge",
+    "input": 224,
+    "r": 5,
+    "acc": 86.53,
+    "throughput": 28.82,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_huge",
+    "input": 224,
+    "r": 6,
+    "acc": 86.346,
+    "throughput": 31.62,
+    "throughput_batch": 64
+  },
+  {
+    "model": "mae_vit_huge",
+    "input": 224,
+    "r": 7,
+    "acc": 86.002,
+    "throughput": 35.06,
+    "throughput_batch": 64
+  }
+]

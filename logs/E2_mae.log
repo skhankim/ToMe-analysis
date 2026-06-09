@@ -1,0 +1,133 @@
+2026-05-24 18:24:34 [INFO] Logging to /workspace/ToMe/logs/E2_mae.log
+2026-05-24 18:24:34 [INFO] device=cuda, fp32, prop_attn=False (MAE off-the-shelf)
+2026-05-24 18:24:34 [INFO] 
+=== MAE-base @ 224 | r in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] ===
+2026-05-24 18:24:34 [INFO] --- MAE-base r=0 ---
+2026-05-24 18:29:28 [INFO]   [throughput] auto-searching batch at r=0...
+2026-05-24 18:29:35 [INFO]   batch=32 -> 165.5 im/s
+2026-05-24 18:29:50 [INFO]   batch=64 -> 171.0 im/s
+2026-05-24 18:30:21 [INFO]   batch=128 -> 170.0 im/s
+2026-05-24 18:31:21 [INFO]   batch=256 -> 170.7 im/s
+2026-05-24 18:33:21 [INFO]   batch=512 -> 170.6 im/s
+2026-05-24 18:37:28 [INFO]   batch=1024 -> 165.9 im/s
+2026-05-24 18:37:28 [INFO]   -> best batch=64 @ 171.0 im/s
+2026-05-24 18:37:28 [INFO]   acc=83.722  throughput=171.0 im/s (bs=64)
+2026-05-24 18:37:28 [INFO] --- MAE-base r=1 ---
+2026-05-24 18:42:36 [INFO]   batch=64 (fixed) -> 171.9 im/s
+2026-05-24 18:42:36 [INFO]   acc=83.646  throughput=171.9 im/s (bs=64)
+2026-05-24 18:42:36 [INFO] --- MAE-base r=2 ---
+2026-05-24 18:47:35 [INFO]   batch=64 (fixed) -> 176.7 im/s
+2026-05-24 18:47:35 [INFO]   acc=83.596  throughput=176.7 im/s (bs=64)
+2026-05-24 18:47:35 [INFO] --- MAE-base r=3 ---
+2026-05-24 18:52:24 [INFO]   batch=64 (fixed) -> 181.9 im/s
+2026-05-24 18:52:24 [INFO]   acc=83.534  throughput=181.9 im/s (bs=64)
+2026-05-24 18:52:24 [INFO] --- MAE-base r=4 ---
+2026-05-24 18:57:04 [INFO]   batch=64 (fixed) -> 189.3 im/s
+2026-05-24 18:57:04 [INFO]   acc=83.520  throughput=189.3 im/s (bs=64)
+2026-05-24 18:57:04 [INFO] --- MAE-base r=5 ---
+2026-05-24 19:01:33 [INFO]   batch=64 (fixed) -> 196.0 im/s
+2026-05-24 19:01:33 [INFO]   acc=83.360  throughput=196.0 im/s (bs=64)
+2026-05-24 19:01:33 [INFO] --- MAE-base r=6 ---
+2026-05-24 19:05:54 [INFO]   batch=64 (fixed) -> 203.3 im/s
+2026-05-24 19:05:54 [INFO]   acc=83.236  throughput=203.3 im/s (bs=64)
+2026-05-24 19:05:54 [INFO] --- MAE-base r=7 ---
+2026-05-24 19:10:03 [INFO]   batch=64 (fixed) -> 212.4 im/s
+2026-05-24 19:10:03 [INFO]   acc=83.024  throughput=212.4 im/s (bs=64)
+2026-05-24 19:10:03 [INFO] --- MAE-base r=8 ---
+2026-05-24 19:14:02 [INFO]   batch=64 (fixed) -> 222.5 im/s
+2026-05-24 19:14:02 [INFO]   acc=82.824  throughput=222.5 im/s (bs=64)
+2026-05-24 19:14:02 [INFO] --- MAE-base r=9 ---
+2026-05-24 19:17:50 [INFO]   batch=64 (fixed) -> 230.7 im/s
+2026-05-24 19:17:50 [INFO]   acc=82.784  throughput=230.7 im/s (bs=64)
+2026-05-24 19:17:51 [INFO] --- MAE-base r=10 ---
+2026-05-24 19:21:29 [INFO]   batch=64 (fixed) -> 241.6 im/s
+2026-05-24 19:21:29 [INFO]   acc=82.560  throughput=241.6 im/s (bs=64)
+2026-05-24 19:21:29 [INFO] --- MAE-base r=11 ---
+2026-05-24 19:24:59 [INFO]   batch=64 (fixed) -> 252.1 im/s
+2026-05-24 19:24:59 [INFO]   acc=82.330  throughput=252.1 im/s (bs=64)
+2026-05-24 19:24:59 [INFO] --- MAE-base r=12 ---
+2026-05-24 19:28:19 [INFO]   batch=64 (fixed) -> 264.1 im/s
+2026-05-24 19:28:19 [INFO]   acc=81.822  throughput=264.1 im/s (bs=64)
+2026-05-24 19:28:19 [INFO] --- MAE-base r=13 ---
+2026-05-24 19:31:29 [INFO]   batch=64 (fixed) -> 278.5 im/s
+2026-05-24 19:31:29 [INFO]   acc=81.474  throughput=278.5 im/s (bs=64)
+2026-05-24 19:31:29 [INFO] --- MAE-base r=14 ---
+2026-05-24 19:34:30 [INFO]   batch=64 (fixed) -> 293.5 im/s
+2026-05-24 19:34:30 [INFO]   acc=80.742  throughput=293.5 im/s (bs=64)
+2026-05-24 19:34:30 [INFO] --- MAE-base r=15 ---
+2026-05-24 19:37:22 [INFO]   batch=64 (fixed) -> 310.5 im/s
+2026-05-24 19:37:22 [INFO]   acc=79.964  throughput=310.5 im/s (bs=64)
+2026-05-24 19:37:22 [INFO] --- MAE-base r=16 ---
+2026-05-24 19:40:05 [INFO]   batch=64 (fixed) -> 328.1 im/s
+2026-05-24 19:40:05 [INFO]   acc=78.880  throughput=328.1 im/s (bs=64)
+2026-05-24 19:40:05 [INFO] 
+=== MAE-large @ 224 | r in [0, 1, 2, 3, 4, 5, 6, 7, 8] ===
+2026-05-24 19:40:05 [INFO] --- MAE-large r=0 ---
+2026-05-24 19:55:32 [INFO]   [throughput] auto-searching batch at r=0...
+2026-05-24 19:55:57 [INFO]   batch=32 -> 51.5 im/s
+2026-05-24 19:56:44 [INFO]   batch=64 -> 54.6 im/s
+2026-05-24 19:58:25 [INFO]   batch=128 -> 50.9 im/s
+2026-05-24 20:01:46 [INFO]   batch=256 -> 50.8 im/s
+2026-05-24 20:08:29 [INFO]   batch=512 -> 50.8 im/s
+2026-05-24 20:22:02 [INFO]   batch=1024 -> 50.4 im/s
+2026-05-24 20:22:02 [INFO]   -> best batch=64 @ 54.6 im/s
+2026-05-24 20:22:02 [INFO]   acc=85.954  throughput=54.6 im/s (bs=64)
+2026-05-24 20:22:03 [INFO] --- MAE-large r=1 ---
+2026-05-24 20:37:31 [INFO]   batch=64 (fixed) -> 57.2 im/s
+2026-05-24 20:37:31 [INFO]   acc=85.930  throughput=57.2 im/s (bs=64)
+2026-05-24 20:37:31 [INFO] --- MAE-large r=2 ---
+2026-05-24 20:52:02 [INFO]   batch=64 (fixed) -> 61.0 im/s
+2026-05-24 20:52:02 [INFO]   acc=85.774  throughput=61.0 im/s (bs=64)
+2026-05-24 20:52:03 [INFO] --- MAE-large r=3 ---
+2026-05-24 21:05:41 [INFO]   batch=64 (fixed) -> 65.0 im/s
+2026-05-24 21:05:41 [INFO]   acc=85.768  throughput=65.0 im/s (bs=64)
+2026-05-24 21:05:41 [INFO] --- MAE-large r=4 ---
+2026-05-24 21:18:23 [INFO]   batch=64 (fixed) -> 69.8 im/s
+2026-05-24 21:18:23 [INFO]   acc=85.632  throughput=69.8 im/s (bs=64)
+2026-05-24 21:18:23 [INFO] --- MAE-large r=5 ---
+2026-05-24 21:30:04 [INFO]   batch=64 (fixed) -> 75.9 im/s
+2026-05-24 21:30:04 [INFO]   acc=85.462  throughput=75.9 im/s (bs=64)
+2026-05-24 21:30:04 [INFO] --- MAE-large r=6 ---
+2026-05-24 21:40:43 [INFO]   batch=64 (fixed) -> 83.4 im/s
+2026-05-24 21:40:43 [INFO]   acc=85.116  throughput=83.4 im/s (bs=64)
+2026-05-24 21:40:43 [INFO] --- MAE-large r=7 ---
+2026-05-24 21:50:18 [INFO]   batch=64 (fixed) -> 92.8 im/s
+2026-05-24 21:50:18 [INFO]   acc=84.780  throughput=92.8 im/s (bs=64)
+2026-05-24 21:50:18 [INFO] --- MAE-large r=8 ---
+2026-05-24 21:58:54 [INFO]   batch=64 (fixed) -> 103.5 im/s
+2026-05-24 21:58:54 [INFO]   acc=84.202  throughput=103.5 im/s (bs=64)
+2026-05-24 21:58:54 [INFO] 
+=== MAE-huge @ 224 | r in [0, 1, 2, 3, 4, 5, 6, 7] ===
+2026-05-24 21:58:54 [INFO] --- MAE-huge r=0 ---
+2026-05-24 22:42:11 [INFO]   [throughput] auto-searching batch at r=0...
+2026-05-24 22:43:17 [INFO]   batch=32 -> 19.4 im/s
+2026-05-24 22:45:27 [INFO]   batch=64 -> 19.8 im/s
+2026-05-24 22:49:51 [INFO]   batch=128 -> 19.4 im/s
+2026-05-24 22:58:40 [INFO]   batch=256 -> 19.4 im/s
+2026-05-24 23:16:21 [INFO]   batch=512 -> 19.3 im/s
+2026-05-24 23:16:22 [INFO]   batch=1024 OOM, stopping search
+2026-05-24 23:16:22 [INFO]   -> best batch=64 @ 19.8 im/s
+2026-05-24 23:16:22 [INFO]   acc=86.900  throughput=19.8 im/s (bs=64)
+2026-05-24 23:16:22 [INFO] --- MAE-huge r=1 ---
+2026-05-24 23:58:54 [INFO]   batch=64 (fixed) -> 21.2 im/s
+2026-05-24 23:58:54 [INFO]   acc=86.884  throughput=21.2 im/s (bs=64)
+2026-05-24 23:58:54 [INFO] --- MAE-huge r=2 ---
+2026-05-25 00:39:05 [INFO]   batch=64 (fixed) -> 22.7 im/s
+2026-05-25 00:39:05 [INFO]   acc=86.824  throughput=22.7 im/s (bs=64)
+2026-05-25 00:39:06 [INFO] --- MAE-huge r=3 ---
+2026-05-25 01:16:21 [INFO]   batch=64 (fixed) -> 24.5 im/s
+2026-05-25 01:16:21 [INFO]   acc=86.780  throughput=24.5 im/s (bs=64)
+2026-05-25 01:16:21 [INFO] --- MAE-huge r=4 ---
+2026-05-25 01:50:52 [INFO]   batch=64 (fixed) -> 26.4 im/s
+2026-05-25 01:50:52 [INFO]   acc=86.616  throughput=26.4 im/s (bs=64)
+2026-05-25 01:50:52 [INFO] --- MAE-huge r=5 ---
+2026-05-25 02:22:24 [INFO]   batch=64 (fixed) -> 28.8 im/s
+2026-05-25 02:22:24 [INFO]   acc=86.530  throughput=28.8 im/s (bs=64)
+2026-05-25 02:22:24 [INFO] --- MAE-huge r=6 ---
+2026-05-25 02:51:06 [INFO]   batch=64 (fixed) -> 31.6 im/s
+2026-05-25 02:51:06 [INFO]   acc=86.346  throughput=31.6 im/s (bs=64)
+2026-05-25 02:51:06 [INFO] --- MAE-huge r=7 ---
+2026-05-25 03:16:54 [INFO]   batch=64 (fixed) -> 35.1 im/s
+2026-05-25 03:16:54 [INFO]   acc=86.002  throughput=35.1 im/s (bs=64)
+2026-05-25 03:16:54 [INFO] 
+E2 done. 34 evals. Results -> results/E2_mae.json

@@ -1,0 +1,14 @@
+2026-06-03 05:42:55 [INFO] Logging to /workspace/ToMe/logs/E6_kmeans_clsfix.log
+2026-06-03 05:42:55 [INFO] device=cuda, ViT-L/16 MAE r=8, prop_attn=False, variants=['kmeans_random5_clsfix'], out=E6_kmeans_clsfix.json
+2026-06-03 05:42:55 [INFO] 
+--- kmeans_random5_clsfix ---
+2026-06-03 05:51:32 [INFO]   batch=32 -> 97.6 im/s
+2026-06-03 05:51:57 [INFO]   batch=64 -> 100.9 im/s
+2026-06-03 05:52:49 [INFO]   batch=128 -> 99.9 im/s
+2026-06-03 05:54:35 [INFO]   batch=256 -> 96.3 im/s
+2026-06-03 05:58:19 [INFO]   batch=512 -> 91.4 im/s
+2026-06-03 05:58:21 [INFO]   batch=1024 OOM, stopping search
+2026-06-03 05:58:21 [INFO]   -> best batch=64 @ 100.9 im/s
+2026-06-03 05:58:21 [INFO]   acc=82.322  throughput=100.9 im/s (bs=64)
+2026-06-03 05:58:21 [INFO] 
+E6 done. 1 variants. Results -> results/E6_kmeans_clsfix.json

@@ -1,0 +1,50 @@
+[
+  {
+    "algo": "prune_random",
+    "style": "prune",
+    "r": 8,
+    "acc": 79.51,
+    "throughput": 103.59,
+    "throughput_batch": 128
+  },
+  {
+    "algo": "prune_attn",
+    "style": "prune",
+    "r": 8,
+    "acc": 76.068,
+    "throughput": 103.2,
+    "throughput_batch": 64
+  },
+  {
+    "algo": "kmeans2",
+    "style": "merge",
+    "r": 8,
+    "acc": 82.312,
+    "throughput": 101.36,
+    "throughput_batch": 64
+  },
+  {
+    "algo": "kmeans5",
+    "style": "merge",
+    "r": 8,
+    "acc": 82.318,
+    "throughput": 100.42,
+    "throughput_batch": 64
+  },
+  {
+    "algo": "greedy",
+    "style": "merge",
+    "r": 8,
+    "acc": 84.184,
+    "throughput": 75.27,
+    "throughput_batch": 64
+  },
+  {
+    "algo": "bipartite",
+    "style": "merge",
+    "r": 8,
+    "acc": 84.202,
+    "throughput": 102.03,
+    "throughput_batch": 64
+  }
+]

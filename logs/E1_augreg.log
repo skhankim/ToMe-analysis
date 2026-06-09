@@ -1,0 +1,245 @@
+2026-05-24 18:23:58 [INFO] Logging to /workspace/ToMe/logs/E1_augreg.log
+2026-05-24 18:23:58 [INFO] device=cuda, fp32, prop_attn=True
+2026-05-24 18:23:58 [INFO] 
+=== vit_tiny_patch16_224 @ 224 | r in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] | mean=[0.5, 0.5, 0.5] std=[0.5, 0.5, 0.5] crop_pct=0.9 ===
+2026-05-24 18:23:59 [INFO] --- vit_tiny_patch16_224 r=0 ---
+2026-05-24 18:25:14 [INFO]   [throughput] auto-searching batch at r=0...
+2026-05-24 18:25:15 [INFO]   batch=32 -> 1537.8 im/s
+2026-05-24 18:25:17 [INFO]   batch=64 -> 1621.8 im/s
+2026-05-24 18:25:20 [INFO]   batch=128 -> 1639.6 im/s
+2026-05-24 18:25:26 [INFO]   batch=256 -> 1609.5 im/s
+2026-05-24 18:25:39 [INFO]   batch=512 -> 1566.8 im/s
+2026-05-24 18:26:06 [INFO]   batch=1024 -> 1513.6 im/s
+2026-05-24 18:26:06 [INFO]   -> best batch=128 @ 1639.6 im/s
+2026-05-24 18:26:06 [INFO]   acc=75.484  throughput=1639.6 im/s (bs=128)
+2026-05-24 18:26:06 [INFO] --- vit_tiny_patch16_224 r=1 ---
+2026-05-24 18:27:23 [INFO]   batch=128 (fixed) -> 1498.9 im/s
+2026-05-24 18:27:23 [INFO]   acc=75.430  throughput=1498.9 im/s (bs=128)
+2026-05-24 18:27:23 [INFO] --- vit_tiny_patch16_224 r=2 ---
+2026-05-24 18:28:39 [INFO]   batch=128 (fixed) -> 1546.6 im/s
+2026-05-24 18:28:39 [INFO]   acc=75.348  throughput=1546.6 im/s (bs=128)
+2026-05-24 18:28:39 [INFO] --- vit_tiny_patch16_224 r=3 ---
+2026-05-24 18:29:55 [INFO]   batch=128 (fixed) -> 1596.9 im/s
+2026-05-24 18:29:55 [INFO]   acc=75.292  throughput=1596.9 im/s (bs=128)
+2026-05-24 18:29:55 [INFO] --- vit_tiny_patch16_224 r=4 ---
+2026-05-24 18:31:12 [INFO]   batch=128 (fixed) -> 1647.1 im/s
+2026-05-24 18:31:12 [INFO]   acc=75.246  throughput=1647.1 im/s (bs=128)
+2026-05-24 18:31:12 [INFO] --- vit_tiny_patch16_224 r=5 ---
+2026-05-24 18:32:28 [INFO]   batch=128 (fixed) -> 1711.6 im/s
+2026-05-24 18:32:28 [INFO]   acc=75.102  throughput=1711.6 im/s (bs=128)
+2026-05-24 18:32:28 [INFO] --- vit_tiny_patch16_224 r=6 ---
+2026-05-24 18:33:44 [INFO]   batch=128 (fixed) -> 1771.3 im/s
+2026-05-24 18:33:44 [INFO]   acc=75.060  throughput=1771.3 im/s (bs=128)
+2026-05-24 18:33:44 [INFO] --- vit_tiny_patch16_224 r=7 ---
+2026-05-24 18:35:00 [INFO]   batch=128 (fixed) -> 1855.4 im/s
+2026-05-24 18:35:00 [INFO]   acc=74.836  throughput=1855.4 im/s (bs=128)
+2026-05-24 18:35:00 [INFO] --- vit_tiny_patch16_224 r=8 ---
+2026-05-24 18:36:15 [INFO]   batch=128 (fixed) -> 1928.8 im/s
+2026-05-24 18:36:15 [INFO]   acc=74.586  throughput=1928.8 im/s (bs=128)
+2026-05-24 18:36:15 [INFO] --- vit_tiny_patch16_224 r=9 ---
+2026-05-24 18:37:31 [INFO]   batch=128 (fixed) -> 2023.5 im/s
+2026-05-24 18:37:31 [INFO]   acc=74.376  throughput=2023.5 im/s (bs=128)
+2026-05-24 18:37:31 [INFO] --- vit_tiny_patch16_224 r=10 ---
+2026-05-24 18:38:46 [INFO]   batch=128 (fixed) -> 2113.4 im/s
+2026-05-24 18:38:46 [INFO]   acc=74.142  throughput=2113.4 im/s (bs=128)
+2026-05-24 18:38:46 [INFO] --- vit_tiny_patch16_224 r=11 ---
+2026-05-24 18:40:02 [INFO]   batch=128 (fixed) -> 2209.0 im/s
+2026-05-24 18:40:02 [INFO]   acc=73.786  throughput=2209.0 im/s (bs=128)
+2026-05-24 18:40:02 [INFO] --- vit_tiny_patch16_224 r=12 ---
+2026-05-24 18:41:17 [INFO]   batch=128 (fixed) -> 2313.2 im/s
+2026-05-24 18:41:17 [INFO]   acc=73.438  throughput=2313.2 im/s (bs=128)
+2026-05-24 18:41:17 [INFO] --- vit_tiny_patch16_224 r=13 ---
+2026-05-24 18:42:32 [INFO]   batch=128 (fixed) -> 2418.5 im/s
+2026-05-24 18:42:32 [INFO]   acc=72.982  throughput=2418.5 im/s (bs=128)
+2026-05-24 18:42:32 [INFO] --- vit_tiny_patch16_224 r=14 ---
+2026-05-24 18:43:47 [INFO]   batch=128 (fixed) -> 2549.0 im/s
+2026-05-24 18:43:47 [INFO]   acc=72.488  throughput=2549.0 im/s (bs=128)
+2026-05-24 18:43:47 [INFO] --- vit_tiny_patch16_224 r=15 ---
+2026-05-24 18:45:02 [INFO]   batch=128 (fixed) -> 2679.2 im/s
+2026-05-24 18:45:02 [INFO]   acc=71.566  throughput=2679.2 im/s (bs=128)
+2026-05-24 18:45:02 [INFO] --- vit_tiny_patch16_224 r=16 ---
+2026-05-24 18:46:16 [INFO]   batch=128 (fixed) -> 2811.7 im/s
+2026-05-24 18:46:16 [INFO]   acc=70.626  throughput=2811.7 im/s (bs=128)
+2026-05-24 18:46:17 [INFO] 
+=== vit_small_patch16_224 @ 224 | r in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] | mean=[0.5, 0.5, 0.5] std=[0.5, 0.5, 0.5] crop_pct=0.9 ===
+2026-05-24 18:46:17 [INFO] --- vit_small_patch16_224 r=0 ---
+2026-05-24 18:47:54 [INFO]   [throughput] auto-searching batch at r=0...
+2026-05-24 18:47:56 [INFO]   batch=32 -> 516.5 im/s
+2026-05-24 18:48:01 [INFO]   batch=64 -> 528.1 im/s
+2026-05-24 18:48:11 [INFO]   batch=128 -> 530.9 im/s
+2026-05-24 18:48:30 [INFO]   batch=256 -> 526.7 im/s
+2026-05-24 18:49:09 [INFO]   batch=512 -> 530.3 im/s
+2026-05-24 18:50:26 [INFO]   batch=1024 -> 530.1 im/s
+2026-05-24 18:50:26 [INFO]   -> best batch=128 @ 530.9 im/s
+2026-05-24 18:50:26 [INFO]   acc=81.402  throughput=530.9 im/s (bs=128)
+2026-05-24 18:50:26 [INFO] --- vit_small_patch16_224 r=1 ---
+2026-05-24 18:52:17 [INFO]   batch=128 (fixed) -> 524.0 im/s
+2026-05-24 18:52:17 [INFO]   acc=81.376  throughput=524.0 im/s (bs=128)
+2026-05-24 18:52:17 [INFO] --- vit_small_patch16_224 r=2 ---
+2026-05-24 18:54:05 [INFO]   batch=128 (fixed) -> 540.9 im/s
+2026-05-24 18:54:05 [INFO]   acc=81.230  throughput=540.9 im/s (bs=128)
+2026-05-24 18:54:05 [INFO] --- vit_small_patch16_224 r=3 ---
+2026-05-24 18:55:48 [INFO]   batch=128 (fixed) -> 559.3 im/s
+2026-05-24 18:55:48 [INFO]   acc=81.150  throughput=559.3 im/s (bs=128)
+2026-05-24 18:55:48 [INFO] --- vit_small_patch16_224 r=4 ---
+2026-05-24 18:57:28 [INFO]   batch=128 (fixed) -> 577.6 im/s
+2026-05-24 18:57:28 [INFO]   acc=81.178  throughput=577.6 im/s (bs=128)
+2026-05-24 18:57:28 [INFO] --- vit_small_patch16_224 r=5 ---
+2026-05-24 18:59:05 [INFO]   batch=128 (fixed) -> 599.2 im/s
+2026-05-24 18:59:05 [INFO]   acc=81.014  throughput=599.2 im/s (bs=128)
+2026-05-24 18:59:05 [INFO] --- vit_small_patch16_224 r=6 ---
+2026-05-24 19:00:39 [INFO]   batch=128 (fixed) -> 622.3 im/s
+2026-05-24 19:00:39 [INFO]   acc=80.962  throughput=622.3 im/s (bs=128)
+2026-05-24 19:00:39 [INFO] --- vit_small_patch16_224 r=7 ---
+2026-05-24 19:02:08 [INFO]   batch=128 (fixed) -> 649.3 im/s
+2026-05-24 19:02:08 [INFO]   acc=80.804  throughput=649.3 im/s (bs=128)
+2026-05-24 19:02:08 [INFO] --- vit_small_patch16_224 r=8 ---
+2026-05-24 19:03:34 [INFO]   batch=128 (fixed) -> 678.5 im/s
+2026-05-24 19:03:34 [INFO]   acc=80.652  throughput=678.5 im/s (bs=128)
+2026-05-24 19:03:34 [INFO] --- vit_small_patch16_224 r=9 ---
+2026-05-24 19:04:56 [INFO]   batch=128 (fixed) -> 710.7 im/s
+2026-05-24 19:04:56 [INFO]   acc=80.508  throughput=710.7 im/s (bs=128)
+2026-05-24 19:04:56 [INFO] --- vit_small_patch16_224 r=10 ---
+2026-05-24 19:06:17 [INFO]   batch=128 (fixed) -> 743.6 im/s
+2026-05-24 19:06:17 [INFO]   acc=80.218  throughput=743.6 im/s (bs=128)
+2026-05-24 19:06:17 [INFO] --- vit_small_patch16_224 r=11 ---
+2026-05-24 19:07:37 [INFO]   batch=128 (fixed) -> 780.9 im/s
+2026-05-24 19:07:37 [INFO]   acc=80.054  throughput=780.9 im/s (bs=128)
+2026-05-24 19:07:37 [INFO] --- vit_small_patch16_224 r=12 ---
+2026-05-24 19:08:57 [INFO]   batch=128 (fixed) -> 822.7 im/s
+2026-05-24 19:08:57 [INFO]   acc=79.604  throughput=822.7 im/s (bs=128)
+2026-05-24 19:08:57 [INFO] --- vit_small_patch16_224 r=13 ---
+2026-05-24 19:10:16 [INFO]   batch=128 (fixed) -> 864.3 im/s
+2026-05-24 19:10:16 [INFO]   acc=79.342  throughput=864.3 im/s (bs=128)
+2026-05-24 19:10:16 [INFO] --- vit_small_patch16_224 r=14 ---
+2026-05-24 19:11:35 [INFO]   batch=128 (fixed) -> 917.3 im/s
+2026-05-24 19:11:35 [INFO]   acc=78.752  throughput=917.3 im/s (bs=128)
+2026-05-24 19:11:35 [INFO] --- vit_small_patch16_224 r=15 ---
+2026-05-24 19:12:54 [INFO]   batch=128 (fixed) -> 971.4 im/s
+2026-05-24 19:12:54 [INFO]   acc=78.036  throughput=971.4 im/s (bs=128)
+2026-05-24 19:12:54 [INFO] --- vit_small_patch16_224 r=16 ---
+2026-05-24 19:14:13 [INFO]   batch=128 (fixed) -> 1032.9 im/s
+2026-05-24 19:14:13 [INFO]   acc=76.956  throughput=1032.9 im/s (bs=128)
+2026-05-24 19:14:14 [INFO] 
+=== vit_base_patch16_224 @ 224 | r in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] | mean=[0.5, 0.5, 0.5] std=[0.5, 0.5, 0.5] crop_pct=0.9 ===
+2026-05-24 19:14:15 [INFO] --- vit_base_patch16_224 r=0 ---
+2026-05-24 19:19:29 [INFO]   [throughput] auto-searching batch at r=0...
+2026-05-24 19:19:37 [INFO]   batch=32 -> 157.5 im/s
+2026-05-24 19:19:53 [INFO]   batch=64 -> 163.1 im/s
+2026-05-24 19:20:24 [INFO]   batch=128 -> 162.1 im/s
+2026-05-24 19:21:28 [INFO]   batch=256 -> 162.0 im/s
+2026-05-24 19:23:35 [INFO]   batch=512 -> 160.8 im/s
+2026-05-24 19:27:56 [INFO]   batch=1024 -> 157.0 im/s
+2026-05-24 19:27:56 [INFO]   -> best batch=64 @ 163.1 im/s
+2026-05-24 19:27:56 [INFO]   acc=84.470  throughput=163.1 im/s (bs=64)
+2026-05-24 19:27:56 [INFO] --- vit_base_patch16_224 r=1 ---
+2026-05-24 19:33:25 [INFO]   batch=64 (fixed) -> 161.5 im/s
+2026-05-24 19:33:25 [INFO]   acc=84.428  throughput=161.5 im/s (bs=64)
+2026-05-24 19:33:25 [INFO] --- vit_base_patch16_224 r=2 ---
+2026-05-24 19:38:44 [INFO]   batch=64 (fixed) -> 165.0 im/s
+2026-05-24 19:38:44 [INFO]   acc=84.354  throughput=165.0 im/s (bs=64)
+2026-05-24 19:38:44 [INFO] --- vit_base_patch16_224 r=3 ---
+2026-05-24 19:43:52 [INFO]   batch=64 (fixed) -> 171.0 im/s
+2026-05-24 19:43:52 [INFO]   acc=84.346  throughput=171.0 im/s (bs=64)
+2026-05-24 19:43:52 [INFO] --- vit_base_patch16_224 r=4 ---
+2026-05-24 19:48:50 [INFO]   batch=64 (fixed) -> 177.8 im/s
+2026-05-24 19:48:50 [INFO]   acc=84.202  throughput=177.8 im/s (bs=64)
+2026-05-24 19:48:50 [INFO] --- vit_base_patch16_224 r=5 ---
+2026-05-24 19:53:36 [INFO]   batch=64 (fixed) -> 184.3 im/s
+2026-05-24 19:53:36 [INFO]   acc=84.214  throughput=184.3 im/s (bs=64)
+2026-05-24 19:53:36 [INFO] --- vit_base_patch16_224 r=6 ---
+2026-05-24 19:58:13 [INFO]   batch=64 (fixed) -> 190.5 im/s
+2026-05-24 19:58:13 [INFO]   acc=84.076  throughput=190.5 im/s (bs=64)
+2026-05-24 19:58:13 [INFO] --- vit_base_patch16_224 r=7 ---
+2026-05-24 20:02:38 [INFO]   batch=64 (fixed) -> 200.0 im/s
+2026-05-24 20:02:38 [INFO]   acc=83.956  throughput=200.0 im/s (bs=64)
+2026-05-24 20:02:38 [INFO] --- vit_base_patch16_224 r=8 ---
+2026-05-24 20:06:52 [INFO]   batch=64 (fixed) -> 208.6 im/s
+2026-05-24 20:06:52 [INFO]   acc=83.786  throughput=208.6 im/s (bs=64)
+2026-05-24 20:06:52 [INFO] --- vit_base_patch16_224 r=9 ---
+2026-05-24 20:10:56 [INFO]   batch=64 (fixed) -> 216.2 im/s
+2026-05-24 20:10:56 [INFO]   acc=83.692  throughput=216.2 im/s (bs=64)
+2026-05-24 20:10:56 [INFO] --- vit_base_patch16_224 r=10 ---
+2026-05-24 20:14:49 [INFO]   batch=64 (fixed) -> 226.7 im/s
+2026-05-24 20:14:49 [INFO]   acc=83.548  throughput=226.7 im/s (bs=64)
+2026-05-24 20:14:49 [INFO] --- vit_base_patch16_224 r=11 ---
+2026-05-24 20:18:32 [INFO]   batch=64 (fixed) -> 235.8 im/s
+2026-05-24 20:18:32 [INFO]   acc=83.202  throughput=235.8 im/s (bs=64)
+2026-05-24 20:18:32 [INFO] --- vit_base_patch16_224 r=12 ---
+2026-05-24 20:22:05 [INFO]   batch=64 (fixed) -> 246.8 im/s
+2026-05-24 20:22:05 [INFO]   acc=82.956  throughput=246.8 im/s (bs=64)
+2026-05-24 20:22:05 [INFO] --- vit_base_patch16_224 r=13 ---
+2026-05-24 20:25:28 [INFO]   batch=64 (fixed) -> 260.7 im/s
+2026-05-24 20:25:28 [INFO]   acc=82.542  throughput=260.7 im/s (bs=64)
+2026-05-24 20:25:28 [INFO] --- vit_base_patch16_224 r=14 ---
+2026-05-24 20:28:42 [INFO]   batch=64 (fixed) -> 274.4 im/s
+2026-05-24 20:28:42 [INFO]   acc=82.018  throughput=274.4 im/s (bs=64)
+2026-05-24 20:28:42 [INFO] --- vit_base_patch16_224 r=15 ---
+2026-05-24 20:31:44 [INFO]   batch=64 (fixed) -> 290.9 im/s
+2026-05-24 20:31:44 [INFO]   acc=81.340  throughput=290.9 im/s (bs=64)
+2026-05-24 20:31:44 [INFO] --- vit_base_patch16_224 r=16 ---
+2026-05-24 20:34:37 [INFO]   batch=64 (fixed) -> 308.2 im/s
+2026-05-24 20:34:37 [INFO]   acc=80.348  throughput=308.2 im/s (bs=64)
+2026-05-24 20:34:44 [INFO] 
+=== vit_large_patch16_224 @ 224 | r in [0, 1, 2, 3, 4, 5, 6, 7, 8] | mean=[0.5, 0.5, 0.5] std=[0.5, 0.5, 0.5] crop_pct=0.9 ===
+2026-05-24 20:34:44 [INFO] --- vit_large_patch16_224 r=0 ---
+2026-05-24 20:50:55 [INFO]   [throughput] auto-searching batch at r=0...
+2026-05-24 20:51:22 [INFO]   batch=32 -> 48.7 im/s
+2026-05-24 20:52:11 [INFO]   batch=64 -> 51.8 im/s
+2026-05-24 20:53:57 [INFO]   batch=128 -> 48.3 im/s
+2026-05-24 20:57:30 [INFO]   batch=256 -> 48.2 im/s
+2026-05-24 21:04:32 [INFO]   batch=512 -> 48.5 im/s
+2026-05-24 21:04:35 [INFO]   batch=1024 OOM, stopping search
+2026-05-24 21:04:35 [INFO]   -> best batch=64 @ 51.8 im/s
+2026-05-24 21:04:35 [INFO]   acc=85.888  throughput=51.8 im/s (bs=64)
+2026-05-24 21:04:35 [INFO] --- vit_large_patch16_224 r=1 ---
+2026-05-24 21:20:54 [INFO]   batch=64 (fixed) -> 54.2 im/s
+2026-05-24 21:20:54 [INFO]   acc=85.736  throughput=54.2 im/s (bs=64)
+2026-05-24 21:20:54 [INFO] --- vit_large_patch16_224 r=2 ---
+2026-05-24 21:36:14 [INFO]   batch=64 (fixed) -> 57.5 im/s
+2026-05-24 21:36:14 [INFO]   acc=85.678  throughput=57.5 im/s (bs=64)
+2026-05-24 21:36:14 [INFO] --- vit_large_patch16_224 r=3 ---
+2026-05-24 21:50:39 [INFO]   batch=64 (fixed) -> 61.4 im/s
+2026-05-24 21:50:39 [INFO]   acc=85.570  throughput=61.4 im/s (bs=64)
+2026-05-24 21:50:39 [INFO] --- vit_large_patch16_224 r=4 ---
+2026-05-24 22:04:02 [INFO]   batch=64 (fixed) -> 66.0 im/s
+2026-05-24 22:04:02 [INFO]   acc=85.346  throughput=66.0 im/s (bs=64)
+2026-05-24 22:04:03 [INFO] --- vit_large_patch16_224 r=5 ---
+2026-05-24 22:16:21 [INFO]   batch=64 (fixed) -> 71.8 im/s
+2026-05-24 22:16:21 [INFO]   acc=85.086  throughput=71.8 im/s (bs=64)
+2026-05-24 22:16:21 [INFO] --- vit_large_patch16_224 r=6 ---
+2026-05-24 22:27:36 [INFO]   batch=64 (fixed) -> 78.6 im/s
+2026-05-24 22:27:36 [INFO]   acc=84.736  throughput=78.6 im/s (bs=64)
+2026-05-24 22:27:36 [INFO] --- vit_large_patch16_224 r=7 ---
+2026-05-24 22:37:45 [INFO]   batch=64 (fixed) -> 87.3 im/s
+2026-05-24 22:37:45 [INFO]   acc=84.120  throughput=87.3 im/s (bs=64)
+2026-05-24 22:37:45 [INFO] --- vit_large_patch16_224 r=8 ---
+2026-05-24 22:46:51 [INFO]   batch=64 (fixed) -> 97.5 im/s
+2026-05-24 22:46:51 [INFO]   acc=83.286  throughput=97.5 im/s (bs=64)
+2026-05-24 22:48:29 [INFO] 
+=== vit_large_patch16_384 @ 384 | r in [0, 5, 10, 15, 20, 23] | mean=[0.5, 0.5, 0.5] std=[0.5, 0.5, 0.5] crop_pct=1.0 ===
+2026-05-24 22:48:29 [INFO] --- vit_large_patch16_384 r=0 ---
+2026-05-24 23:41:35 [INFO]   [throughput] auto-searching batch at r=0...
+2026-05-24 23:42:56 [INFO]   batch=32 -> 15.7 im/s
+2026-05-24 23:45:50 [INFO]   batch=64 -> 14.7 im/s
+2026-05-24 23:51:39 [INFO]   batch=128 -> 14.7 im/s
+2026-05-24 23:51:39 [INFO]   batch=256 OOM, stopping search
+2026-05-24 23:51:39 [INFO]   -> best batch=32 @ 15.7 im/s
+2026-05-24 23:51:39 [INFO]   acc=87.084  throughput=15.7 im/s (bs=32)
+2026-05-24 23:51:39 [INFO] --- vit_large_patch16_384 r=5 ---
+2026-05-25 00:41:56 [INFO]   batch=32 (fixed) -> 17.1 im/s
+2026-05-25 00:41:56 [INFO]   acc=87.042  throughput=17.1 im/s (bs=32)
+2026-05-25 00:41:56 [INFO] --- vit_large_patch16_384 r=10 ---
+2026-05-25 01:25:48 [INFO]   batch=32 (fixed) -> 19.5 im/s
+2026-05-25 01:25:48 [INFO]   acc=87.012  throughput=19.5 im/s (bs=32)
+2026-05-25 01:25:48 [INFO] --- vit_large_patch16_384 r=15 ---
+2026-05-25 02:03:45 [INFO]   batch=32 (fixed) -> 22.6 im/s
+2026-05-25 02:03:45 [INFO]   acc=86.954  throughput=22.6 im/s (bs=32)
+2026-05-25 02:03:45 [INFO] --- vit_large_patch16_384 r=20 ---
+2026-05-25 02:35:59 [INFO]   batch=32 (fixed) -> 26.6 im/s
+2026-05-25 02:35:59 [INFO]   acc=86.678  throughput=26.6 im/s (bs=32)
+2026-05-25 02:35:59 [INFO] --- vit_large_patch16_384 r=23 ---
+2026-05-25 03:04:52 [INFO]   batch=32 (fixed) -> 29.7 im/s
+2026-05-25 03:04:52 [INFO]   acc=86.248  throughput=29.7 im/s (bs=32)
+2026-05-25 03:04:52 [INFO] 
+E1 done. 66 evals. Results -> results/E1_augreg.json

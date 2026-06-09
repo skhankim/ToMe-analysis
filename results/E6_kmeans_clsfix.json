@@ -1,0 +1,10 @@
+[
+  {
+    "algo": "kmeans_random5_clsfix",
+    "style": "merge",
+    "r": 8,
+    "acc": 82.322,
+    "throughput": 100.94,
+    "throughput_batch": 64
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "sub_table": "f",
+    "label": "augreg_no_prop",
+    "backbone": "augreg",
+    "cfg": {
+      "feature": "k",
+      "distance": "cosine",
+      "head_agg": "mean",
+      "combine": "wavg",
+      "partition": "alternating",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 82.062,
+    "throughput": 97.38,
+    "throughput_batch": 64
+  },
+  {
+    "sub_table": "f",
+    "label": "augreg_prop",
+    "backbone": "augreg",
+    "cfg": {
+      "feature": "k",
+      "distance": "cosine",
+      "head_agg": "mean",
+      "combine": "wavg",
+      "partition": "alternating",
+      "prop_attn": true
+    },
+    "r": 8,
+    "acc": 83.324,
+    "throughput": 96.76,
+    "throughput_batch": 64
+  }
+]

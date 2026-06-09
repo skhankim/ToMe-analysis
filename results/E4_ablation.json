@@ -1,0 +1,376 @@
+[
+  {
+    "sub_table": "a",
+    "label": "x_pre",
+    "backbone": "mae",
+    "cfg": {
+      "feature": "x_pre",
+      "distance": "cosine",
+      "head_agg": "mean",
+      "combine": "wavg",
+      "partition": "alternating",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 83.418,
+    "throughput": 94.72,
+    "throughput_batch": 128
+  },
+  {
+    "sub_table": "a",
+    "label": "x",
+    "backbone": "mae",
+    "cfg": {
+      "feature": "x",
+      "distance": "cosine",
+      "head_agg": "mean",
+      "combine": "wavg",
+      "partition": "alternating",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 83.534,
+    "throughput": 94.66,
+    "throughput_batch": 64
+  },
+  {
+    "sub_table": "a",
+    "label": "k",
+    "backbone": "mae",
+    "cfg": {
+      "feature": "k",
+      "distance": "cosine",
+      "head_agg": "mean",
+      "combine": "wavg",
+      "partition": "alternating",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 84.318,
+    "throughput": 96.01,
+    "throughput_batch": 128
+  },
+  {
+    "sub_table": "a",
+    "label": "q",
+    "backbone": "mae",
+    "cfg": {
+      "feature": "q",
+      "distance": "cosine",
+      "head_agg": "mean",
+      "combine": "wavg",
+      "partition": "alternating",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 83.992,
+    "throughput": 96.32,
+    "throughput_batch": 64
+  },
+  {
+    "sub_table": "a",
+    "label": "v",
+    "backbone": "mae",
+    "cfg": {
+      "feature": "v",
+      "distance": "cosine",
+      "head_agg": "mean",
+      "combine": "wavg",
+      "partition": "alternating",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 83.754,
+    "throughput": 95.93,
+    "throughput_batch": 128
+  },
+  {
+    "sub_table": "b",
+    "label": "euclidean",
+    "backbone": "mae",
+    "cfg": {
+      "feature": "k",
+      "distance": "euclidean",
+      "head_agg": "mean",
+      "combine": "wavg",
+      "partition": "alternating",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 84.192,
+    "throughput": 95.6,
+    "throughput_batch": 128
+  },
+  {
+    "sub_table": "b",
+    "label": "cosine",
+    "backbone": "mae",
+    "cfg": {
+      "feature": "k",
+      "distance": "cosine",
+      "head_agg": "mean",
+      "combine": "wavg",
+      "partition": "alternating",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 84.318,
+    "throughput": 95.67,
+    "throughput_batch": 128
+  },
+  {
+    "sub_table": "b",
+    "label": "dot",
+    "backbone": "mae",
+    "cfg": {
+      "feature": "k",
+      "distance": "dot",
+      "head_agg": "mean",
+      "combine": "wavg",
+      "partition": "alternating",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 82.76,
+    "throughput": 96.39,
+    "throughput_batch": 64
+  },
+  {
+    "sub_table": "b",
+    "label": "softmax",
+    "backbone": "mae",
+    "cfg": {
+      "feature": "k",
+      "distance": "softmax",
+      "head_agg": "mean",
+      "combine": "wavg",
+      "partition": "alternating",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 81.068,
+    "throughput": 96.35,
+    "throughput_batch": 64
+  },
+  {
+    "sub_table": "c",
+    "label": "concat",
+    "backbone": "mae",
+    "cfg": {
+      "feature": "k",
+      "distance": "cosine",
+      "head_agg": "concat",
+      "combine": "wavg",
+      "partition": "alternating",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 84.264,
+    "throughput": 94.71,
+    "throughput_batch": 128
+  },
+  {
+    "sub_table": "c",
+    "label": "mean",
+    "backbone": "mae",
+    "cfg": {
+      "feature": "k",
+      "distance": "cosine",
+      "head_agg": "mean",
+      "combine": "wavg",
+      "partition": "alternating",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 84.314,
+    "throughput": 95.94,
+    "throughput_batch": 128
+  },
+  {
+    "sub_table": "d",
+    "label": "keep_one",
+    "backbone": "mae",
+    "cfg": {
+      "feature": "k",
+      "distance": "cosine",
+      "head_agg": "mean",
+      "combine": "keep_one",
+      "partition": "alternating",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 80.19,
+    "throughput": 96.66,
+    "throughput_batch": 64
+  },
+  {
+    "sub_table": "d",
+    "label": "max",
+    "backbone": "mae",
+    "cfg": {
+      "feature": "k",
+      "distance": "cosine",
+      "head_agg": "mean",
+      "combine": "max",
+      "partition": "alternating",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 83.642,
+    "throughput": 96.05,
+    "throughput_batch": 128
+  },
+  {
+    "sub_table": "d",
+    "label": "avg",
+    "backbone": "mae",
+    "cfg": {
+      "feature": "k",
+      "distance": "cosine",
+      "head_agg": "mean",
+      "combine": "avg",
+      "partition": "alternating",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 83.588,
+    "throughput": 96.08,
+    "throughput_batch": 64
+  },
+  {
+    "sub_table": "d",
+    "label": "wavg",
+    "backbone": "mae",
+    "cfg": {
+      "feature": "k",
+      "distance": "cosine",
+      "head_agg": "mean",
+      "combine": "wavg",
+      "partition": "alternating",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 84.322,
+    "throughput": 95.53,
+    "throughput_batch": 64
+  },
+  {
+    "sub_table": "e",
+    "label": "sequential",
+    "backbone": "mae",
+    "cfg": {
+      "feature": "k",
+      "distance": "cosine",
+      "head_agg": "mean",
+      "combine": "wavg",
+      "partition": "sequential",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 80.922,
+    "throughput": 95.72,
+    "throughput_batch": 128
+  },
+  {
+    "sub_table": "e",
+    "label": "alternating",
+    "backbone": "mae",
+    "cfg": {
+      "feature": "k",
+      "distance": "cosine",
+      "head_agg": "mean",
+      "combine": "wavg",
+      "partition": "alternating",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 84.316,
+    "throughput": 95.8,
+    "throughput_batch": 128
+  },
+  {
+    "sub_table": "e",
+    "label": "random",
+    "backbone": "mae",
+    "cfg": {
+      "feature": "k",
+      "distance": "cosine",
+      "head_agg": "mean",
+      "combine": "wavg",
+      "partition": "random",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 83.768,
+    "throughput": 96.94,
+    "throughput_batch": 128
+  },
+  {
+    "sub_table": "f",
+    "label": "mae_no_prop",
+    "backbone": "mae",
+    "cfg": {
+      "feature": "k",
+      "distance": "cosine",
+      "head_agg": "mean",
+      "combine": "wavg",
+      "partition": "alternating",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 84.322,
+    "throughput": 96.45,
+    "throughput_batch": 128
+  },
+  {
+    "sub_table": "f",
+    "label": "mae_prop",
+    "backbone": "mae",
+    "cfg": {
+      "feature": "k",
+      "distance": "cosine",
+      "head_agg": "mean",
+      "combine": "wavg",
+      "partition": "alternating",
+      "prop_attn": true
+    },
+    "r": 8,
+    "acc": 83.828,
+    "throughput": 95.78,
+    "throughput_batch": 128
+  },
+  {
+    "sub_table": "f",
+    "label": "augreg_no_prop",
+    "backbone": "augreg",
+    "cfg": {
+      "feature": "k",
+      "distance": "cosine",
+      "head_agg": "mean",
+      "combine": "wavg",
+      "partition": "alternating",
+      "prop_attn": false
+    },
+    "r": 8,
+    "acc": 80.112,
+    "throughput": 96.92,
+    "throughput_batch": 128
+  },
+  {
+    "sub_table": "f",
+    "label": "augreg_prop",
+    "backbone": "augreg",
+    "cfg": {
+      "feature": "k",
+      "distance": "cosine",
+      "head_agg": "mean",
+      "combine": "wavg",
+      "partition": "alternating",
+      "prop_attn": true
+    },
+    "r": 8,
+    "acc": 81.4,
+    "throughput": 95.95,
+    "throughput_batch": 128
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "model": "swag_vit_b16",
+    "input": 384,
+    "r": 0,
+    "acc": 85.286,
+    "throughput": 52.29,
+    "throughput_batch": 128
+  },
+  {
+    "model": "swag_vit_b16",
+    "input": 384,
+    "r": 5,
+    "acc": 85.284,
+    "throughput": 52.48,
+    "throughput_batch": 128
+  },
+  {
+    "model": "swag_vit_b16",
+    "input": 384,
+    "r": 10,
+    "acc": 85.214,
+    "throughput": 56.32,
+    "throughput_batch": 128
+  },
+  {
+    "model": "swag_vit_b16",
+    "input": 384,
+    "r": 15,
+    "acc": 85.172,
+    "throughput": 60.31,
+    "throughput_batch": 128
+  },
+  {
+    "model": "swag_vit_b16",
+    "input": 384,
+    "r": 20,
+    "acc": 85.09,
+    "throughput": 64.71,
+    "throughput_batch": 128
+  },
+  {
+    "model": "swag_vit_b16",
+    "input": 384,
+    "r": 25,
+    "acc": 85.054,
+    "throughput": 69.92,
+    "throughput_batch": 128
+  },
+  {
+    "model": "swag_vit_b16",
+    "input": 384,
+    "r": 30,
+    "acc": 84.994,
+    "throughput": 75.35,
+    "throughput_batch": 128
+  },
+  {
+    "model": "swag_vit_b16",
+    "input": 384,
+    "r": 35,
+    "acc": 84.93,
+    "throughput": 82.2,
+    "throughput_batch": 128
+  },
+  {
+    "model": "swag_vit_b16",
+    "input": 384,
+    "r": 40,
+    "acc": 84.77,
+    "throughput": 89.68,
+    "throughput_batch": 128
+  },
+  {
+    "model": "swag_vit_b16",
+    "input": 384,
+    "r": 45,
+    "acc": 84.534,
+    "throughput": 98.5,
+    "throughput_batch": 128
+  },
+  {
+    "model": "swag_vit_l16",
+    "input": 512,
+    "r": 0,
+    "acc": 88.07,
+    "throughput": 8.2,
+    "throughput_batch": 16
+  },
+  {
+    "model": "swag_vit_l16",
+    "input": 512,
+    "r": 5,
+    "acc": 88.004,
+    "throughput": 8.65,
+    "throughput_batch": 16
+  },
+  {
+    "model": "swag_vit_l16",
+    "input": 512,
+    "r": 10,
+    "acc": 88.016,
+    "throughput": 9.37,
+    "throughput_batch": 16
+  },
+  {
+    "model": "swag_vit_l16",
+    "input": 512,
+    "r": 15,
+    "acc": 87.984,
+    "throughput": 10.17,
+    "throughput_batch": 16
+  },
+  {
+    "model": "swag_vit_l16",
+    "input": 512,
+    "r": 20,
+    "acc": 87.946,
+    "throughput": 11.03,
+    "throughput_batch": 16
+  },
+  {
+    "model": "swag_vit_l16",
+    "input": 512,
+    "r": 25,
+    "acc": 87.932,
+    "throughput": 12.05,
+    "throughput_batch": 16
+  },
+  {
+    "model": "swag_vit_l16",
+    "input": 512,
+    "r": 30,
+    "acc": 87.842,
+    "throughput": 13.19,
+    "throughput_batch": 16
+  },
+  {
+    "model": "swag_vit_l16",
+    "input": 512,
+    "r": 35,
+    "acc": 87.86,
+    "throughput": 14.61,
+    "throughput_batch": 16
+  },
+  {
+    "model": "swag_vit_l16",
+    "input": 512,
+    "r": 40,
+    "acc": 87.716,
+    "throughput": 16.26,
+    "throughput_batch": 16
+  },
+  {
+    "model": "swag_vit_h14",
+    "input": 518,
+    "r": 0,
+    "acc": 88.546,
+    "throughput": 3.13,
+    "throughput_batch": 8
+  },
+  {
+    "model": "swag_vit_h14",
+    "input": 518,
+    "r": 5,
+    "acc": 88.528,
+    "throughput": 3.15,
+    "throughput_batch": 8
+  },
+  {
+    "model": "swag_vit_h14",
+    "input": 518,
+    "r": 10,
+    "acc": 88.496,
+    "throughput": 3.38,
+    "throughput_batch": 8
+  },
+  {
+    "model": "swag_vit_h14",
+    "input": 518,
+    "r": 15,
+    "acc": 88.478,
+    "throughput": 3.67,
+    "throughput_batch": 8
+  },
+  {
+    "model": "swag_vit_h14",
+    "input": 518,
+    "r": 20,
+    "acc": 88.438,
+    "throughput": 3.97,
+    "throughput_batch": 8
+  },
+  {
+    "model": "swag_vit_h14",
+    "input": 518,
+    "r": 25,
+    "acc": 88.36,
+    "throughput": 4.36,
+    "throughput_batch": 8
+  },
+  {
+    "model": "swag_vit_h14",
+    "input": 518,
+    "r": 30,
+    "acc": 88.382,
+    "throughput": 4.8,
+    "throughput_batch": 8
+  },
+  {
+    "model": "swag_vit_h14",
+    "input": 518,
+    "r": 35,
+    "acc": 88.284,
+    "throughput": 5.29,
+    "throughput_batch": 8
+  },
+  {
+    "model": "swag_vit_h14",
+    "input": 518,
+    "r": 40,
+    "acc": 88.224,
+    "throughput": 5.86,
+    "throughput_batch": 8
+  }
+]

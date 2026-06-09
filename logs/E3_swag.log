@@ -1,0 +1,128 @@
+2026-05-27 10:48:38 [INFO] Logging to /workspace/ToMe/logs/E3_swag.log
+2026-05-27 10:48:38 [INFO] device=cuda, fp32, prop_attn=True, include_huge=False, only_huge=False
+2026-05-27 10:48:38 [INFO] 
+=== swag_vit_b16 @ 384 | r in [0, 5, 10, 15, 20, 25, 30, 35, 40, 45] ===
+2026-05-27 10:48:38 [INFO] --- swag_vit_b16 r=0 ---
+2026-05-27 10:48:57 [INFO] Logging to /workspace/ToMe/logs/E3_swag.log
+2026-05-27 10:48:57 [INFO] device=cuda, fp32, prop_attn=True, include_huge=True, only_huge=False
+2026-05-27 10:48:57 [INFO] 
+=== swag_vit_b16 @ 384 | r in [0, 5, 10, 15, 20, 25, 30, 35, 40, 45] ===
+2026-05-27 10:48:57 [INFO] --- swag_vit_b16 r=0 ---
+2026-05-27 10:51:28 [INFO] Logging to /workspace/ToMe/logs/E3_swag.log
+2026-05-27 10:51:28 [INFO] device=cuda, fp32, prop_attn=True, include_huge=True, only_huge=False
+2026-05-27 10:51:28 [INFO] 
+=== swag_vit_b16 @ 384 | r in [0, 5, 10, 15, 20, 25, 30, 35, 40, 45] ===
+2026-05-27 10:51:28 [INFO] --- swag_vit_b16 r=0 ---
+2026-05-27 11:07:24 [INFO]   [throughput] auto-searching batch at r=0...
+2026-05-27 11:07:28 [INFO]   batch=4 -> 49.6 im/s
+2026-05-27 11:07:34 [INFO]   batch=8 -> 50.8 im/s
+2026-05-27 11:07:46 [INFO]   batch=16 -> 52.0 im/s
+2026-05-27 11:08:11 [INFO]   batch=32 -> 52.3 im/s
+2026-05-27 11:09:00 [INFO]   batch=64 -> 52.2 im/s
+2026-05-27 11:10:38 [INFO]   batch=128 -> 52.3 im/s
+2026-05-27 11:13:58 [INFO]   batch=256 -> 51.0 im/s
+2026-05-27 11:13:59 [INFO]   batch=512 OOM, stopping search
+2026-05-27 11:13:59 [INFO]   -> best batch=128 @ 52.3 im/s
+2026-05-27 11:13:59 [INFO]   acc=85.286  throughput=52.3 im/s (bs=128)
+2026-05-27 11:13:59 [INFO] --- swag_vit_b16 r=5 ---
+2026-05-27 11:31:33 [INFO]   batch=128 (fixed) -> 52.5 im/s
+2026-05-27 11:31:33 [INFO]   acc=85.284  throughput=52.5 im/s (bs=128)
+2026-05-27 11:31:33 [INFO] --- swag_vit_b16 r=10 ---
+2026-05-27 11:47:55 [INFO]   batch=128 (fixed) -> 56.3 im/s
+2026-05-27 11:47:55 [INFO]   acc=85.214  throughput=56.3 im/s (bs=128)
+2026-05-27 11:47:56 [INFO] --- swag_vit_b16 r=15 ---
+2026-05-27 12:03:13 [INFO]   batch=128 (fixed) -> 60.3 im/s
+2026-05-27 12:03:13 [INFO]   acc=85.172  throughput=60.3 im/s (bs=128)
+2026-05-27 12:03:13 [INFO] --- swag_vit_b16 r=20 ---
+2026-05-27 12:17:30 [INFO]   batch=128 (fixed) -> 64.7 im/s
+2026-05-27 12:17:30 [INFO]   acc=85.090  throughput=64.7 im/s (bs=128)
+2026-05-27 12:17:30 [INFO] --- swag_vit_b16 r=25 ---
+2026-05-27 12:30:45 [INFO]   batch=128 (fixed) -> 69.9 im/s
+2026-05-27 12:30:45 [INFO]   acc=85.054  throughput=69.9 im/s (bs=128)
+2026-05-27 12:30:45 [INFO] --- swag_vit_b16 r=30 ---
+2026-05-27 12:43:02 [INFO]   batch=128 (fixed) -> 75.4 im/s
+2026-05-27 12:43:02 [INFO]   acc=84.994  throughput=75.4 im/s (bs=128)
+2026-05-27 12:43:02 [INFO] --- swag_vit_b16 r=35 ---
+2026-05-27 12:54:18 [INFO]   batch=128 (fixed) -> 82.2 im/s
+2026-05-27 12:54:18 [INFO]   acc=84.930  throughput=82.2 im/s (bs=128)
+2026-05-27 12:54:18 [INFO] --- swag_vit_b16 r=40 ---
+2026-05-27 13:04:40 [INFO]   batch=128 (fixed) -> 89.7 im/s
+2026-05-27 13:04:40 [INFO]   acc=84.770  throughput=89.7 im/s (bs=128)
+2026-05-27 13:04:40 [INFO] --- swag_vit_b16 r=45 ---
+2026-05-27 13:14:05 [INFO]   batch=128 (fixed) -> 98.5 im/s
+2026-05-27 13:14:05 [INFO]   acc=84.534  throughput=98.5 im/s (bs=128)
+2026-05-27 13:14:05 [INFO] 
+=== swag_vit_l16 @ 512 | r in [0, 5, 10, 15, 20, 25, 30, 35, 40] ===
+2026-05-27 13:14:05 [INFO] --- swag_vit_l16 r=0 ---
+2026-05-27 14:59:15 [INFO]   [throughput] auto-searching batch at r=0...
+2026-05-27 14:59:35 [INFO]   batch=4 -> 8.0 im/s
+2026-05-27 15:00:15 [INFO]   batch=8 -> 8.0 im/s
+2026-05-27 15:01:33 [INFO]   batch=16 -> 8.2 im/s
+2026-05-27 15:04:14 [INFO]   batch=32 -> 7.9 im/s
+2026-05-27 15:09:37 [INFO]   batch=64 -> 7.9 im/s
+2026-05-27 15:09:37 [INFO]   batch=128 OOM, stopping search
+2026-05-27 15:09:37 [INFO]   -> best batch=16 @ 8.2 im/s
+2026-05-27 15:09:37 [INFO]   acc=88.070  throughput=8.2 im/s (bs=16)
+2026-05-27 15:09:38 [INFO] --- swag_vit_l16 r=5 ---
+2026-05-27 16:51:11 [INFO]   batch=16 (fixed) -> 8.7 im/s
+2026-05-27 16:51:11 [INFO]   acc=88.004  throughput=8.7 im/s (bs=16)
+2026-05-27 16:51:11 [INFO] --- swag_vit_l16 r=10 ---
+2026-05-27 18:25:18 [INFO]   batch=16 (fixed) -> 9.4 im/s
+2026-05-27 18:25:18 [INFO]   acc=88.016  throughput=9.4 im/s (bs=16)
+2026-05-27 18:25:18 [INFO] --- swag_vit_l16 r=15 ---
+2026-05-27 19:51:59 [INFO]   batch=16 (fixed) -> 10.2 im/s
+2026-05-27 19:51:59 [INFO]   acc=87.984  throughput=10.2 im/s (bs=16)
+2026-05-27 19:52:00 [INFO] --- swag_vit_l16 r=20 ---
+2026-05-27 21:11:42 [INFO]   batch=16 (fixed) -> 11.0 im/s
+2026-05-27 21:11:42 [INFO]   acc=87.946  throughput=11.0 im/s (bs=16)
+2026-05-27 21:11:42 [INFO] --- swag_vit_l16 r=25 ---
+2026-05-27 22:24:23 [INFO]   batch=16 (fixed) -> 12.0 im/s
+2026-05-27 22:24:23 [INFO]   acc=87.932  throughput=12.0 im/s (bs=16)
+2026-05-27 22:24:23 [INFO] --- swag_vit_l16 r=30 ---
+2026-05-27 23:30:35 [INFO]   batch=16 (fixed) -> 13.2 im/s
+2026-05-27 23:30:35 [INFO]   acc=87.842  throughput=13.2 im/s (bs=16)
+2026-05-27 23:30:35 [INFO] --- swag_vit_l16 r=35 ---
+2026-05-28 00:30:14 [INFO]   batch=16 (fixed) -> 14.6 im/s
+2026-05-28 00:30:14 [INFO]   acc=87.860  throughput=14.6 im/s (bs=16)
+2026-05-28 00:30:14 [INFO] --- swag_vit_l16 r=40 ---
+2026-05-28 01:24:10 [INFO]   batch=16 (fixed) -> 16.3 im/s
+2026-05-28 01:24:10 [INFO]   acc=87.716  throughput=16.3 im/s (bs=16)
+2026-05-28 01:24:10 [INFO] 
+=== swag_vit_h14 @ 518 | r in [0, 5, 10, 15, 20, 25, 30, 35, 40] ===
+2026-05-28 01:24:10 [INFO] --- swag_vit_h14 r=0 ---
+2026-05-28 06:07:14 [INFO]   [throughput] auto-searching batch at r=0...
+2026-05-28 06:07:28 [INFO]   batch=1 -> 3.0 im/s
+2026-05-28 06:07:54 [INFO]   batch=2 -> 3.1 im/s
+2026-05-28 06:08:47 [INFO]   batch=4 -> 3.0 im/s
+2026-05-28 06:10:29 [INFO]   batch=8 -> 3.1 im/s
+2026-05-28 06:13:58 [INFO]   batch=16 -> 3.1 im/s
+2026-05-28 06:20:53 [INFO]   batch=32 -> 3.1 im/s
+2026-05-28 06:20:54 [INFO]   batch=64 OOM, stopping search
+2026-05-28 06:20:54 [INFO]   -> best batch=8 @ 3.1 im/s
+2026-05-28 06:20:54 [INFO]   acc=88.546  throughput=3.1 im/s (bs=8)
+2026-05-28 06:20:54 [INFO] --- swag_vit_h14 r=5 ---
+2026-05-28 10:58:53 [INFO]   batch=8 (fixed) -> 3.2 im/s
+2026-05-28 10:58:53 [INFO]   acc=88.528  throughput=3.2 im/s (bs=8)
+2026-05-28 10:58:53 [INFO] --- swag_vit_h14 r=10 ---
+2026-05-28 15:15:13 [INFO]   batch=8 (fixed) -> 3.4 im/s
+2026-05-28 15:15:13 [INFO]   acc=88.496  throughput=3.4 im/s (bs=8)
+2026-05-28 15:15:14 [INFO] --- swag_vit_h14 r=15 ---
+2026-05-28 19:12:18 [INFO]   batch=8 (fixed) -> 3.7 im/s
+2026-05-28 19:12:18 [INFO]   acc=88.478  throughput=3.7 im/s (bs=8)
+2026-05-28 19:12:18 [INFO] --- swag_vit_h14 r=20 ---
+2026-05-28 22:50:02 [INFO]   batch=8 (fixed) -> 4.0 im/s
+2026-05-28 22:50:02 [INFO]   acc=88.438  throughput=4.0 im/s (bs=8)
+2026-05-28 22:50:02 [INFO] --- swag_vit_h14 r=25 ---
+2026-05-29 02:09:05 [INFO]   batch=8 (fixed) -> 4.4 im/s
+2026-05-29 02:09:05 [INFO]   acc=88.360  throughput=4.4 im/s (bs=8)
+2026-05-29 02:09:05 [INFO] --- swag_vit_h14 r=30 ---
+2026-05-29 05:09:51 [INFO]   batch=8 (fixed) -> 4.8 im/s
+2026-05-29 05:09:51 [INFO]   acc=88.382  throughput=4.8 im/s (bs=8)
+2026-05-29 05:09:52 [INFO] --- swag_vit_h14 r=35 ---
+2026-05-29 07:54:34 [INFO]   batch=8 (fixed) -> 5.3 im/s
+2026-05-29 07:54:34 [INFO]   acc=88.284  throughput=5.3 im/s (bs=8)
+2026-05-29 07:54:34 [INFO] --- swag_vit_h14 r=40 ---
+2026-05-29 10:23:48 [INFO]   batch=8 (fixed) -> 5.9 im/s
+2026-05-29 10:23:48 [INFO]   acc=88.224  throughput=5.9 im/s (bs=8)
+2026-05-29 10:23:48 [INFO] 
+E3 done. 28 evals. Results -> results/E3_swag.json
